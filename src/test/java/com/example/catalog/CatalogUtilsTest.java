@@ -376,5 +376,28 @@ class CatalogUtilsTest {
     }
 
 
+    @Test
+    public void testDoesSongExistByName() throws JsonProcessingException {
+
+        assertTrue(catalogUtils.doesSongExistByName(songs,"J Blinding Lights"));
+        assertTrue(catalogUtils.doesSongExistByName(songs,"H Blinding Lights"));
+        assertTrue(catalogUtils.doesSongExistByName(songs,"R Blinding Lights"));
+        assertTrue(catalogUtils.doesSongExistByName(songs,"C Blinding Lights"));
+
+        assertFalse(catalogUtils.doesSongExistByName(songs,"Blinding Lights"));
+        assertFalse(catalogUtils.doesSongExistByName(songs,"Q Blinding Lights"));
+        assertFalse(catalogUtils.doesSongExistByName(songs,"J Blinding "));
+        assertFalse(catalogUtils.doesSongExistByName(songs,"J Blinding"));
+
+    }
+
+    @Test
+    public void testCountSongsByArtist() throws JsonProcessingException {
+
+        assertEquals(5,catalogUtils.countSongsByArtist(songs,"The Weeknd")); // valid Spotify ID
+        assertEquals(0,catalogUtils.countSongsByArtist(songs,"Adam")); // valid Spotify ID
+
+    }
+
 
 }
