@@ -8,9 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.apache.commons.lang3.StringUtils;
 
 import java.io.IOException;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 @RestController
 public class PracticeController {
@@ -33,7 +31,7 @@ public class PracticeController {
         );
 
         // TODO sort songs by names
-
+        songNames.sort(String::compareTo);
         return songNames;
     }
 
@@ -44,11 +42,23 @@ public class PracticeController {
      */
     @GetMapping("/mostPopularSongs")
     public Map<String, Object> getMostPopularSongs() throws IOException {
+        // Load the JSON file
         ClassPathResource resource = new ClassPathResource("data/popular_songs.json");
         JsonNode songsNode = objectMapper.readTree(resource.getFile());
+        // Convert JSON to a list of maps
         List<Map<String, Object>> songsList = objectMapper.convertValue(songsNode, List.class);
 
-        return songsList.get(0);  // TODO return the song with the highest popularity
+        // Find the song with the highest popularity
+        Map<String, Object> mostPopularSong = Collections.max(songsList, Comparator.comparing(song ->
+                (Integer) song.get("popularity")  // Assuming "popularity" is an Integer
+        ));
+
+        // Return the most popular song
+        return mostPopularSong;
     }
+
+
+
+
 
 }
