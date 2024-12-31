@@ -7,7 +7,6 @@ on:
 
 jobs:
   Test:
-    needs: PreTestListKatas
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
