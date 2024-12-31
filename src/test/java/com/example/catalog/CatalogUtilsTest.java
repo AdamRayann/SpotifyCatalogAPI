@@ -399,5 +399,16 @@ class CatalogUtilsTest {
 
     }
 
-
+//    @Test
+//    public void testGetLongestSong() throws JsonProcessingException {
+//
+//        return songs.stream()
+//                .filter(song -> song.get("artists").isArray() && song.get("artists").elements()
+//                        .next()
+//                        .get("name")
+//                        .asText()
+//                        .equals(artistName)) // Filter songs where artist name matches
+//                .count(); // Count the filtered songs
+//
+//    }
 }
