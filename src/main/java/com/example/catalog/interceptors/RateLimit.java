@@ -58,35 +58,63 @@ public class RateLimit implements HandlerInterceptor {
         {
             int MinInMill = 60000;
             List<Long> list = table.get(clientIp);
-            if (!list.isEmpty() && ((int) (currentTime-list.get(list.size() - 1))<=MinInMill))
-            {
-                Iterator<Long> iterator = list.iterator();
-                int cnt = 0;
+            if(rateLimitAlgo.equals("moving")) {
+                if (!list.isEmpty() && ((int) (currentTime - list.get(list.size() - 1)) <= MinInMill)) {
+                    Iterator<Long> iterator = list.iterator();
+                    int cnt = 0;
 
-                while (iterator.hasNext()) {
-                    Long time = iterator.next();
+                    while (iterator.hasNext()) {
+                        Long time = iterator.next();
 
-                    if (currentTime-time <= MinInMill) {
-                        if (cnt< rateLimitRPM)
-                            cnt++;
+                        if (currentTime - time <= MinInMill) {
+                            if (cnt < rateLimitRPM)
+                                cnt++;
 
-                    } else {
-                        iterator.remove();
+                        } else {
+                            iterator.remove();
+                        }
+
+                        if (cnt == rateLimitRPM) {
+                            if (!list.isEmpty()) {
+                                int result = (int) ((((list.get(0) - currentTime)) / 1000) + 60);
+                                System.out.println(result);
+                                return -1 * result;
+                            }
+                        }
                     }
 
-                    if (cnt == rateLimitRPM) {
-                        if (!list.isEmpty()) {
-                            int result = (int) ((((list.get(0) - currentTime)) / 1000) + 60);
-                            System.out.println(result);
-                            return -1 * result;
+                    list.add(currentTime);
+                    table.put(clientIp, list);
+                    return (rateLimitRPM - 1) - cnt;
+                }
+            } else {
+                long oldestRequestTime = list.isEmpty() ? 0 : list.get(0);
+                if (currentTime - oldestRequestTime > MinInMill) {
+                    list.clear();
+                } else {
+                    Iterator<Long> iterator = list.iterator();
+                    while (iterator.hasNext()) {
+                        Long time = iterator.next();
+                        if (currentTime - time > MinInMill) {
+                            iterator.remove();
+                        } else {
+                            break;
                         }
                     }
                 }
 
+                if (list.size() >= rateLimitRPM) {
+                    int waitTimeInSeconds = (int) ((MinInMill - (currentTime - oldestRequestTime)) / 1000);
+                    System.out.println(waitTimeInSeconds);
+                    return -1 * waitTimeInSeconds;
+                }
+
                 list.add(currentTime);
-                table.put(clientIp,list);
-                return (rateLimitRPM-1)-cnt;
+                table.put(clientIp, list);
+
+                return rateLimitRPM - list.size();
             }
+
 
         }
         table.put(clientIp, new ArrayList<>(List.of(currentTime)));
