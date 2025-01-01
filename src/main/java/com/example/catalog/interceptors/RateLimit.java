@@ -47,7 +47,7 @@ public class RateLimit implements HandlerInterceptor {
         }
 
 
-        System.out.println(System.currentTimeMillis());
+        //System.out.println(System.currentTimeMillis());
         remainingAccess=isAllowed(clientIp);
         if (remainingAccess<0) {
 
@@ -89,7 +89,7 @@ public class RateLimit implements HandlerInterceptor {
                         if (cnt == rateLimitRPM) {
                             if (!list.isEmpty()) {
                                 int result = (int) ((((list.get(0) - currentTime)) / 1000) + 60);
-                                System.out.println(result);
+                                //System.out.println(result);
                                 return -1 * result;
                             }
                         }
@@ -117,7 +117,7 @@ public class RateLimit implements HandlerInterceptor {
 
                 if (list.size() >= rateLimitRPM) {
                     int waitTimeInSeconds = (int) ((MinInMill - (currentTime - oldestRequestTime)) / 1000);
-                    System.out.println(waitTimeInSeconds);
+                    //System.out.println(waitTimeInSeconds);
                     return -1 * waitTimeInSeconds;
                 }
 
