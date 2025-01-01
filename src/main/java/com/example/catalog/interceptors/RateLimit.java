@@ -19,6 +19,8 @@ public class RateLimit implements HandlerInterceptor {
     private static final String INTERNAL_ENDPOINT = "/internal";
     @Value("${rate-limit.algo}")
     private String rateLimitAlgo;
+    @Value("${rate-limit.enabled}")
+    private boolean rateLimitEnabled;
 
     @Value("${rate-limit.rpm}")
     private int rateLimitRPM;
@@ -26,11 +28,21 @@ public class RateLimit implements HandlerInterceptor {
     private static Hashtable<String,List<Long>> table= new Hashtable<>();
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
+        String algoParam = request.getParameter("algo");
+        String enabledParam = request.getParameter("enabled");
+
+        // Override the properties file values if query parameters are present
+        if (algoParam != null) {
+            rateLimitAlgo = algoParam;
+        }
+        if (enabledParam != null) {
+            rateLimitEnabled = Boolean.parseBoolean(enabledParam);
+        }
         String clientIp = request.getRemoteAddr();
         String path = request.getRequestURI();
         int remainingAccess=10;
-        if (path.startsWith(INTERNAL_ENDPOINT)) {
-            response.setStatus(HttpStatus.OK.value()); // Set HTTP 200 for internal requests
+        if (path.startsWith(INTERNAL_ENDPOINT) || !rateLimitEnabled) {
+            response.setStatus(HttpStatus.OK.value());
             return true;
         }
 
