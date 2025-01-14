@@ -1,16 +1,18 @@
 package com.example.catalog.controller;
 
+import com.example.catalog.model.Artist;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import org.springframework.core.io.ClassPathResource;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.io.IOException;
+import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.StreamSupport;
 
 import com.example.catalog.utils.SpotifyUtils;
 
@@ -20,18 +22,54 @@ public class CatalogController {
     private final ObjectMapper objectMapper = new ObjectMapper();
 
     @GetMapping("/popularSongs")
-    public ResponseEntity<JsonNode> getPopularSongs() throws IOException {
-        try {
-            ClassPathResource resource = new ClassPathResource("data/popular_songs.json");
-            return new ResponseEntity<>(objectMapper.readTree(resource.getFile()), HttpStatus.OK);
+    public JsonNode getPopularSongs(
+            @RequestParam(value = "name", required = false) String songName,
+            @RequestParam(value = "minPopularity", required = false) Integer minPopularity
+   ,@RequestParam(defaultValue = "0") int offset,
+            @RequestParam(defaultValue = "-1") int limit ) throws IOException {
+        // Load JSON data
+        ClassPathResource resource = new ClassPathResource("data/popular_songs.json");
+        JsonNode allSongs = objectMapper.readTree(resource.getFile());
 
-        }catch (Exception e){
-            ObjectNode errorResponse = objectMapper.createObjectNode();
-            errorResponse.put("message", "unable to read the JSON files");
-            errorResponse.put("status", 500);
-            return new ResponseEntity<>(errorResponse, HttpStatus.BAD_REQUEST);
+        // Filter using Streams
+        List<JsonNode> filteredSongs = StreamSupport.stream(allSongs.spliterator(), false)
+                .filter(song -> minPopularity == null || song.get("popularity").asInt() >= minPopularity) // Apply minPopularity filter
+                .filter(song -> songName == null || song.get("name").asText().equalsIgnoreCase(songName)) // Apply songName filter
+                .collect(Collectors.toList());
+        if(limit!=-1)
+            filteredSongs=filteredSongs.subList(offset,offset+limit);
+        else
+            filteredSongs=filteredSongs.subList(offset,filteredSongs.size());
+        // Return filtered results as JSON
+        return objectMapper.valueToTree(filteredSongs);
+    }
 
-        }
+//    @GetMapping("/popularSongs/filter?name={songName}&minPopularity={minPopularity}")
+//    public JsonNode getFilteredPopularSongs(@PathVariable String songName,@PathVariable int minPopularity) throws IOException {
+//        ClassPathResource resource = new ClassPathResource("data/popular_songs.json");
+//        //JsonNode albums = objectMapper.readTree(resource.getFile());
+//        //JsonNode album = albums.get(minPopularity);
+//
+//
+//        return objectMapper.readTree(resource.getFile());
+//    }
+
+//    @GetMapping("/songs/mostRecent")
+//    public JsonNode getMostRecentSong() throws IOException {
+//        ClassPathResource resource = new ClassPathResource("data/popular_artists.json");
+//        JsonNode allSongs = objectMapper.readTree(resource.getFile());
+//        List<JsonNode> filteredSongs = StreamSupport.stream(allSongs.spliterator(), false)
+//                .filter(song -> songName == null || song.get("name").asText().equalsIgnoreCase(songName)) // Apply songName filter
+//                .collect(Collectors.toList());
+//
+//        return objectMapper.readTree(resource.getFile());
+//    }
+//
+//    @GetMapping("/songs/longest")
+//    public JsonNode getlongestSong() throws IOException {
+//        ClassPathResource resource = new ClassPathResource("data/popular_artists.json");
+//        return objectMapper.readTree(resource.getFile());
+//    }
 
     }
     @GetMapping("/internal")
@@ -39,86 +77,37 @@ public class CatalogController {
         return ResponseEntity.ok("Internal request successful. No rate limiting applied.");
     }
     @GetMapping("/popularArtists")
-    public ResponseEntity<JsonNode> getPopularArtists() throws IOException {
-        try {
-            ClassPathResource resource = new ClassPathResource("data/popular_artists.json");
-            ObjectMapper objectMapper = new ObjectMapper();
-            // Read the JSON
-            JsonNode jsonNode = objectMapper.readTree(resource.getFile());
-            if(jsonNode.isEmpty())
-            {
-                ObjectNode errorResponse = objectMapper.createObjectNode();
-                errorResponse.put("message", "JSON files are empty");
-                errorResponse.put("status", 503);
-                return new ResponseEntity<>(errorResponse, HttpStatus.BAD_REQUEST);
-            }
-            return new ResponseEntity<>(objectMapper.readTree(resource.getFile()), HttpStatus.OK);
-
-        }
-        catch (Exception e){
-            ObjectNode errorResponse = objectMapper.createObjectNode();
-            errorResponse.put("message", "unable to read the JSON files");
-            errorResponse.put("status", 500);
-            return new ResponseEntity<>(errorResponse, HttpStatus.BAD_REQUEST);
-        }
+    public JsonNode getPopularArtists() throws IOException {
+        ClassPathResource resource = new ClassPathResource("data/popular_artists.json");
+        return objectMapper.readTree(resource.getFile());
     }
 
     @GetMapping("/albums/{id}")
-    public ResponseEntity<JsonNode> getAlbumById(@PathVariable String id) throws IOException {
-        // Validate the ID
-        if (!SpotifyUtils.isValidId(id)) {
-            ObjectNode errorResponse = objectMapper.createObjectNode();
-            errorResponse.put("message", "Resource not found");
-            errorResponse.put("status", 400);
-            return new ResponseEntity<>(errorResponse, HttpStatus.BAD_REQUEST);
+    public JsonNode getAlbumById(@PathVariable String id) throws IOException {
+        if (! SpotifyUtils.isValidId(id)) {
+            return objectMapper.createObjectNode().put("error", "Invalid Id");
         }
 
-        // Check if the ID consists entirely of '0's
-        int count = (int) id.chars()
-                .filter(ch -> ch == '0')
-                .count();
-        if (count == id.length()) {
-            ObjectNode errorResponse = objectMapper.createObjectNode();
-            errorResponse.put("message", "Album not supported");
-            errorResponse.put("status", 403);
-            return new ResponseEntity<>(errorResponse, HttpStatus.FORBIDDEN);
-        }
-
-        try {
-            // Load JSON data
-            ClassPathResource resource = new ClassPathResource("data/albums.json");
-            JsonNode albums = objectMapper.readTree(resource.getFile());
-
-            // Check if the JSON is empty
-            if (albums == null || albums.isEmpty()) {
-                ObjectNode errorResponse = objectMapper.createObjectNode();
-                errorResponse.put("message", "JSON files are empty");
-                errorResponse.put("status", 503);
-                return new ResponseEntity<>(errorResponse, HttpStatus.SERVICE_UNAVAILABLE);
-            }
-
-            // Retrieve the specific album
-            JsonNode album = albums.get(id);
-
-            // Check if the album exists
-            if (album == null) {
-                ObjectNode errorResponse = objectMapper.createObjectNode();
-                errorResponse.put("message", "Album not found");
-                errorResponse.put("status", 404);
-                return new ResponseEntity<>(errorResponse, HttpStatus.NOT_FOUND);
-            }
-
-            // Return the album if found
-            return new ResponseEntity<>(album, HttpStatus.OK);
-
-        } catch (Exception e) {
-            // Handle exceptions while reading JSON
-            ObjectNode errorResponse = objectMapper.createObjectNode();
-            errorResponse.put("message", "Unable to read the JSON files");
-            errorResponse.put("status", 500);
-            return new ResponseEntity<>(errorResponse, HttpStatus.INTERNAL_SERVER_ERROR);
+        ClassPathResource resource = new ClassPathResource("data/albums.json");
+        JsonNode albums = objectMapper.readTree(resource.getFile());
+        JsonNode album = albums.get(id);
+        if (album != null) {
+            return album;
+        } else {
+            return objectMapper.createObjectNode().put("error", "Album not found");
         }
     }
 
+    @PostMapping("/artists")
+    public void addArtist(@RequestBody Artist artist) throws IOException {
+        ObjectMapper objectMapper = new ObjectMapper();
+        JsonNode artistNode = objectMapper.valueToTree(artist);  // convert the Artists object to JsonNode
+
+        if(artist.addNewArtist(artistNode))
+            System.out.println("added successfully");
+        else
+            System.out.println("the artist was not added");
+
+    }
 
 }
