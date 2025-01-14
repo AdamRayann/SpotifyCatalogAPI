@@ -2,9 +2,8 @@ name: SpotifyCatalogAPI tests
 
 on:
   pull_request:
-    types: [opened, reopened ,review_requested]
-#    branches:
-#      - main
+    branches:
+      - main
 
 jobs:
   Test:
