@@ -3,11 +3,9 @@ package com.example.catalog.controller;
 import com.example.catalog.model.Artist;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.node.ObjectNode;
 import org.springframework.core.io.ClassPathResource;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
 
 import java.io.IOException;
 import java.util.List;
@@ -25,7 +23,7 @@ public class CatalogController {
     public JsonNode getPopularSongs(
             @RequestParam(value = "name", required = false) String songName,
             @RequestParam(value = "minPopularity", required = false) Integer minPopularity
-   ,@RequestParam(defaultValue = "0") int offset,
+            ,@RequestParam(defaultValue = "0") int offset,
             @RequestParam(defaultValue = "-1") int limit ) throws IOException {
         // Load JSON data
         ClassPathResource resource = new ClassPathResource("data/popular_songs.json");
@@ -71,7 +69,7 @@ public class CatalogController {
 //        return objectMapper.readTree(resource.getFile());
 //    }
 
-    }
+
     @GetMapping("/internal")
     public ResponseEntity<String> internalEndpoint() {
         return ResponseEntity.ok("Internal request successful. No rate limiting applied.");
