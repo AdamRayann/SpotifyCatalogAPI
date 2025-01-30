@@ -8,6 +8,8 @@ public class DatabaseDataSourceService implements DataSourceService {
 
     @Override
     public Artist getArtistById(String id) {
-        return db.findById(id).orElse(null);
+
+        //return db.findById(id).orElse(null);
+        return null;
     }
 }
