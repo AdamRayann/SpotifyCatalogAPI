@@ -23,42 +23,65 @@ public class SongController {
     }
 
     @GetMapping
-    public ResponseEntity<List<Song>> getAllSongs() throws IOException {
-        return ResponseEntity.ok(dataSourceService.getAllSongs());
+    public ResponseEntity<List<Song>> getAllSongs() {
+        try {
+            return ResponseEntity.ok(dataSourceService.getAllSongs());
+        } catch (IOException e) {
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
+        }
     }
+
     @GetMapping("/{id}")
-    public ResponseEntity<Song> getSongById(@PathVariable String id) throws IOException {
+    public ResponseEntity<Song> getSongById(@PathVariable String id) {
         if (!SpotifyUtils.isValidId(id)) {
             return ResponseEntity.badRequest().build();
         }
-        Song song = dataSourceService.getSongById(id);
-        return song != null ? ResponseEntity.ok(song) : ResponseEntity.status(HttpStatus.NOT_FOUND).build();
+        try {
+            Song song = dataSourceService.getSongById(id);
+            return song != null ? ResponseEntity.ok(song) : ResponseEntity.status(HttpStatus.NOT_FOUND).build();
+        } catch (IOException e) {
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
+        }
     }
 
     @PostMapping
-    public ResponseEntity<Song> createSong(@RequestBody Song song) throws IOException {
-        return ResponseEntity.status(HttpStatus.CREATED).body(dataSourceService.createSong(song));
+    public ResponseEntity<Song> createSong(@RequestBody Song song) {
+        if (song == null) {
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
+        }
+        try {
+            return ResponseEntity.status(HttpStatus.CREATED).body(dataSourceService.createSong(song));
+        } catch (IOException e) {
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
+        }
     }
 
     @PutMapping("/{id}")
-    public ResponseEntity<Song> updateSong(@PathVariable String id, @RequestBody Song updatedSong) throws IOException {
+    public ResponseEntity<Song> updateSong(@PathVariable String id, @RequestBody Song updatedSong) {
         if (!SpotifyUtils.isValidId(id)) {
             return ResponseEntity.badRequest().build();
         }
         if (updatedSong.getId() != null && !updatedSong.getId().equals(id)) {
-            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(null);
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
         }
-        Song updated = dataSourceService.updateSong(id, updatedSong);
-        return updated != null ? ResponseEntity.ok(updated) : ResponseEntity.status(HttpStatus.NOT_FOUND).build();
+        try {
+            Song updated = dataSourceService.updateSong(id, updatedSong);
+            return updated != null ? ResponseEntity.ok(updated) : ResponseEntity.status(HttpStatus.NOT_FOUND).build();
+        } catch (IOException e) {
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
+        }
     }
 
     @DeleteMapping("/{id}")
-    public ResponseEntity<Void> deleteSong(@PathVariable String id) throws IOException {
+    public ResponseEntity<Void> deleteSong(@PathVariable String id) {
         if (!SpotifyUtils.isValidId(id)) {
             return ResponseEntity.badRequest().build();
         }
-        dataSourceService.deleteSong(id);
-        return ResponseEntity.noContent().build();
+        try {
+            dataSourceService.deleteSong(id);
+            return ResponseEntity.noContent().build();
+        } catch (IOException e) {
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
+        }
     }
-
 }

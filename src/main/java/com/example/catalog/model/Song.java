@@ -38,6 +38,11 @@ public class Song {
         this.artists = artists;
     }
 
+    public Song(String id, String name) {
+        this.id = id;
+        this.name = name;
+    }
+
     // Getters and Setters
     public String getId() { return id; }
     public void setId(String id) { this.id = id; }

@@ -24,76 +24,111 @@ public class AlbumController {
     }
 
     @GetMapping
-    public ResponseEntity<List<Album>> getAllAlbums() throws IOException {
-        return ResponseEntity.ok(dataSourceService.getAllAlbums());
+    public ResponseEntity<List<Album>> getAllAlbums() {
+        try {
+            return ResponseEntity.ok(dataSourceService.getAllAlbums());
+        } catch (IOException e) {
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
+        }
     }
 
     @GetMapping("/{id}")
-    public ResponseEntity<Album> getAlbumById(@PathVariable String id) throws IOException {
+    public ResponseEntity<Album> getAlbumById(@PathVariable String id) {
         if (!SpotifyUtils.isValidId(id)) {
             return ResponseEntity.badRequest().build();
         }
-        Album album = dataSourceService.getAlbumById(id);
-        return album != null ? ResponseEntity.ok(album) : ResponseEntity.status(HttpStatus.NOT_FOUND).build();
+        try {
+            Album album = dataSourceService.getAlbumById(id);
+            return album != null ? ResponseEntity.ok(album) : ResponseEntity.status(HttpStatus.NOT_FOUND).build();
+        } catch (IOException e) {
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
+        }
     }
 
     @PostMapping
-    public ResponseEntity<Album> createAlbum(@RequestBody Album album) throws IOException {
-        return ResponseEntity.status(HttpStatus.CREATED).body(dataSourceService.createAlbum(album));
+    public ResponseEntity<Album> createAlbum(@RequestBody Album album) {
+        try {
+            return ResponseEntity.status(HttpStatus.CREATED).body(dataSourceService.createAlbum(album));
+        } catch (IOException e) {
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
+        }
     }
 
     @PutMapping("/{id}")
-    public ResponseEntity<Album> updateAlbum(@PathVariable String id, @RequestBody Album updatedAlbum) throws IOException {
+    public ResponseEntity<Album> updateAlbum(@PathVariable String id, @RequestBody Album updatedAlbum) {
         if (!SpotifyUtils.isValidId(id)) {
             return ResponseEntity.badRequest().build();
         }
         if (updatedAlbum.getId() != null && !updatedAlbum.getId().equals(id)) {
-            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(null);
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
         }
-        Album updated = dataSourceService.updateAlbum(id, updatedAlbum);
-        return updated != null ? ResponseEntity.ok(updated) : ResponseEntity.status(HttpStatus.NOT_FOUND).build();
+        try {
+            Album updated = dataSourceService.updateAlbum(id, updatedAlbum);
+            return updated != null ? ResponseEntity.ok(updated) : ResponseEntity.status(HttpStatus.NOT_FOUND).build();
+        } catch (IOException e) {
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
+        }
     }
 
     @DeleteMapping("/{id}")
-    public ResponseEntity<Void> deleteAlbum(@PathVariable String id) throws IOException {
+    public ResponseEntity<Void> deleteAlbum(@PathVariable String id) {
         if (!SpotifyUtils.isValidId(id)) {
             return ResponseEntity.badRequest().build();
         }
-        dataSourceService.deleteAlbum(id);
-        return ResponseEntity.noContent().build();
+        try {
+            dataSourceService.deleteAlbum(id);
+            return ResponseEntity.noContent().build();
+        } catch (IOException e) {
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
+        }
     }
 
     @GetMapping("/{id}/tracks")
-    public ResponseEntity<List<Track>> getTracksByAlbum(@PathVariable String id) throws IOException {
+    public ResponseEntity<List<Track>> getTracksByAlbum(@PathVariable String id) {
         if (!SpotifyUtils.isValidId(id)) {
             return ResponseEntity.badRequest().build();
         }
-        return ResponseEntity.ok(dataSourceService.getTracksByAlbum(id));
+        try {
+            return ResponseEntity.ok(dataSourceService.getTracksByAlbum(id));
+        } catch (IOException e) {
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
+        }
     }
 
     @PostMapping("/{id}/tracks")
-    public ResponseEntity<Track> addTrackToAlbum(@PathVariable String id, @RequestBody Track track) throws IOException {
+    public ResponseEntity<Track> addTrackToAlbum(@PathVariable String id, @RequestBody Track track) {
         if (!SpotifyUtils.isValidId(id)) {
             return ResponseEntity.badRequest().build();
         }
-        return ResponseEntity.status(HttpStatus.CREATED).body(dataSourceService.addTrackToAlbum(id, track));
+        try {
+            return ResponseEntity.status(HttpStatus.CREATED).body(dataSourceService.addTrackToAlbum(id, track));
+        } catch (IOException e) {
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
+        }
     }
 
     @PutMapping("/{id}/tracks/{track_id}")
-    public ResponseEntity<Track> updateTrackInAlbum(@PathVariable String id, @PathVariable String track_id, @RequestBody Track track) throws IOException {
+    public ResponseEntity<Track> updateTrackInAlbum(@PathVariable String id, @PathVariable String track_id, @RequestBody Track track) {
         if (!SpotifyUtils.isValidId(id) || !SpotifyUtils.isValidId(track_id)) {
             return ResponseEntity.badRequest().build();
         }
-        return ResponseEntity.ok(dataSourceService.updateTrackInAlbum(id, track_id, track));
+        try {
+            return ResponseEntity.ok(dataSourceService.updateTrackInAlbum(id, track_id, track));
+        } catch (IOException e) {
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
+        }
     }
 
     @DeleteMapping("/{id}/tracks/{track_id}")
-    public ResponseEntity<Void> deleteTrackFromAlbum(@PathVariable String id, @PathVariable String track_id) throws IOException {
+    public ResponseEntity<Void> deleteTrackFromAlbum(@PathVariable String id, @PathVariable String track_id) {
         if (!SpotifyUtils.isValidId(id) || !SpotifyUtils.isValidId(track_id)) {
             return ResponseEntity.badRequest().build();
         }
-        dataSourceService.deleteTrackFromAlbum(id, track_id);
-        return ResponseEntity.noContent().build();
+        try {
+            dataSourceService.deleteTrackFromAlbum(id, track_id);
+            return ResponseEntity.noContent().build();
+        } catch (IOException e) {
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
+        }
     }
-
 }

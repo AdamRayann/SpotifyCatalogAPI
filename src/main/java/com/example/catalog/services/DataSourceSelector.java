@@ -12,11 +12,13 @@ public class DataSourceSelector {
 
     @Bean
     public DataSourceService dataSourceService(JSONDataSourceService jsonDataSourceService,
-                                               DatabaseDataSourceService databaseDataSourceService) {
+                                               DatabaseDataSourceService databaseDataSourceService,SpotifyAPIDataSources spotifyAPIDataSources) {
         if ("json".equalsIgnoreCase(dataSourceType)) {
             return jsonDataSourceService;
         } else if ("database".equalsIgnoreCase(dataSourceType)) {
-            return databaseDataSourceService;
+            return databaseDataSourceService;}
+        else if ("spotify_api".equalsIgnoreCase(dataSourceType)) {
+            return spotifyAPIDataSources;
         } else {
             throw new IllegalArgumentException("Invalid data source type: " + dataSourceType);
         }
