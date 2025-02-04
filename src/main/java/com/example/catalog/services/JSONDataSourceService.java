@@ -7,24 +7,44 @@ import com.example.catalog.model.Track;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
+import java.io.InputStream;
+import java.util.*;
 import java.util.stream.Collectors;
+
+
+import com.example.catalog.model.Album;
+import com.example.catalog.model.Artist;
+import com.example.catalog.model.Song;
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.core.io.ClassPathResource;
+import org.springframework.stereotype.Service;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.List;
 
 @Service
 public class JSONDataSourceService implements DataSourceService {
 
     private final ObjectMapper objectMapper = new ObjectMapper();
-    private final String SONGS_FILE = "data/popular_songs.json";
-    private final String ALBUMS_FILE = "data/albums.json";
-    private final String ARTISTS_FILE = "data/popular_artists.json";
 
+    @Value("${JSONDataSourceService.baseData}")
+    private String basePath;
+
+    private static final String SONGS_FILE = "popular_songs.json";
+    private static final String ALBUMS_FILE = "albums.json";
+    private static final String ARTISTS_FILE = "popular_artists.json";
+
+    public JSONDataSourceService() {}
 
 
     @Override
@@ -93,16 +113,19 @@ public class JSONDataSourceService implements DataSourceService {
     @Override
     public List<Album> getAlbumsByArtist(String artistId) throws IOException {
         List<Song> songs = getAllSongs();
-        List<String> songIdsByArtist = songs.stream()
-                .filter(song -> song.getArtists().stream().anyMatch(artist -> artist.getId().equals(artistId)))
+
+        Set<String> songIdsByArtist = songs.stream()
+                .filter(song -> song.getArtists() != null && song.getArtists().stream()
+                        .anyMatch(artist -> artist.getId().equals(artistId)))
                 .map(Song::getId)
-                .collect(Collectors.toList());
+                .collect(Collectors.toSet());
 
         List<Album> albums = getAllAlbums();
         List<Album> artistAlbums = new ArrayList<>();
 
         for (Album album : albums) {
-            if (album.getTracks().stream().anyMatch(track -> songIdsByArtist.contains(track.getId()))) {
+            if (album.getTracks() != null && album.getTracks().stream()
+                    .anyMatch(track -> songIdsByArtist.contains(track.getId()))) {
                 artistAlbums.add(album);
             }
         }
@@ -111,19 +134,16 @@ public class JSONDataSourceService implements DataSourceService {
     }
 
 
-
-
     @Override
     public List<Song> getPopularSongsByArtist(String artistId) throws IOException {
         List<Song> songs = getAllSongs();
-        List<Song> artistSongs = new ArrayList<>();
-        for (Song song : songs) {
-            if (song.getArtistId().equals(artistId)) {
-                artistSongs.add(song);
-            }
-        }
-        return artistSongs;
+
+        return songs.stream()
+                .filter(song -> song.getArtists() != null && song.getArtists().stream()
+                        .anyMatch(artist -> artistId != null && artistId.equals(artist.getId())))
+                .collect(Collectors.toList());
     }
+
 
 
 //    @Override
@@ -365,21 +385,47 @@ public List<Album> getAllAlbums() throws IOException {
 //        return objectMapper.readTree(resource.getFile());
 //    }
 
-    private JsonNode loadJsonData(String path) throws IOException {
-        File file = new File("src/main/resources/" + path);
-        if (!file.exists()) {
-            throw new IOException("File not found: " + file.getAbsolutePath());
-        }
-        return objectMapper.readTree(file);
-    }
-
+//    private JsonNode loadJsonData(String path) throws IOException {
+//        File file = new File("src/main/resources/" + path);
+//        if (!file.exists()) {
+//            throw new IOException("File not found: " + file.getAbsolutePath());
+//        }
+//        return objectMapper.readTree(file);
+//    }
+//
     private void saveJsonData(Object data, String path) throws IOException {
-        File file = new File("src/main/resources/" + path);
+        File file = new File("src/main/resources/" +basePath +"/"+ path);
 
         ObjectMapper mapper = new ObjectMapper();
         mapper.writerWithDefaultPrettyPrinter().writeValue(file, data);
     }
+    private JsonNode loadJsonData(String fileName) throws IOException {
+        String fullPath = basePath + "/" + fileName;
+        ClassPathResource resource = new ClassPathResource(fullPath);
 
+        try (InputStream inputStream = resource.getInputStream()) {
+            return objectMapper.readTree(inputStream);
+        } catch (IOException e) {
+            throw new IOException("Failed to load JSON data from " + fullPath, e);
+        }
+    }
+
+
+//    private void saveJsonData(Object data, String path) throws IOException {
+//        Path filePath;
+//
+//        // Check if the resource exists in the target directory (for tests)
+//        ClassPathResource resource = new ClassPathResource(path);
+//        if (resource.exists()) {
+//            filePath = resource.getFile().toPath();
+//        } else {
+//            // Fallback to src/main/resources for regular runs
+//            filePath = Path.of("src/main/resources/" + path);
+//        }
+//
+//        ObjectMapper mapper = new ObjectMapper();
+//        mapper.writerWithDefaultPrettyPrinter().writeValue(filePath.toFile(), data);
+//    }
 
 
 

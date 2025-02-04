@@ -1,0 +1,1331 @@
+{
+  "4yP0hdKOZPNshxUOjY0cZj" : {
+    "artistId" : null,
+    "id" : "4yP0hdKOZPNshxUOjY0cZj",
+    "name" : "After Hours",
+    "uri" : "spotify:album:4yP0hdKOZPNshxUOjY0cZj",
+    "release_date" : "2020-03-20",
+    "total_tracks" : 14,
+    "tracks" : [ {
+      "id" : "6b5P51m8xx2XA6U7sdNZ5E",
+      "name" : "Alone Again",
+      "explicit" : true,
+      "uri" : "spotify:track:6b5P51m8xx2XA6U7sdNZ5E",
+      "album" : null,
+      "duration_ms" : 250053
+    }, {
+      "id" : "2K9Ovn1o2bTGqbsABGC6m3",
+      "name" : "Too Late",
+      "explicit" : true,
+      "uri" : "spotify:track:2K9Ovn1o2bTGqbsABGC6m3",
+      "album" : null,
+      "duration_ms" : 239973
+    }, {
+      "id" : "6kWxIqQDsKFYCJGbU4AjCX",
+      "name" : "Hardest To Love",
+      "explicit" : true,
+      "uri" : "spotify:track:6kWxIqQDsKFYCJGbU4AjCX",
+      "album" : null,
+      "duration_ms" : 211400
+    }, {
+      "id" : "4BGZF4oLbTL0pWm7C18pbv",
+      "name" : "Scared To Live",
+      "explicit" : true,
+      "uri" : "spotify:track:4BGZF4oLbTL0pWm7C18pbv",
+      "album" : null,
+      "duration_ms" : 191306
+    }, {
+      "id" : "3WlbeuhfRSqU7ylK2Ui5U7",
+      "name" : "Snowchild",
+      "explicit" : true,
+      "uri" : "spotify:track:3WlbeuhfRSqU7ylK2Ui5U7",
+      "album" : null,
+      "duration_ms" : 247186
+    }, {
+      "id" : "1sOW4PuG5X3Ie3EXUhAopJ",
+      "name" : "Escape From LA",
+      "explicit" : true,
+      "uri" : "spotify:track:1sOW4PuG5X3Ie3EXUhAopJ",
+      "album" : null,
+      "duration_ms" : 355960
+    }, {
+      "id" : "6bnF93Rx87YqUBLSgjiMU8",
+      "name" : "Heartless",
+      "explicit" : true,
+      "uri" : "spotify:track:6bnF93Rx87YqUBLSgjiMU8",
+      "album" : null,
+      "duration_ms" : 198266
+    }, {
+      "id" : "3orEOtd8CPL8GFlpRpKuoE",
+      "name" : "Faith",
+      "explicit" : true,
+      "uri" : "spotify:track:3orEOtd8CPL8GFlpRpKuoE",
+      "album" : null,
+      "duration_ms" : 283226
+    }, {
+      "id" : "0VjIjW4GlUZAMYd2vXMi3b",
+      "name" : "Blinding Lights",
+      "explicit" : false,
+      "uri" : "spotify:track:0VjIjW4GlUZAMYd2vXMi3b",
+      "album" : null,
+      "duration_ms" : 200040
+    }, {
+      "id" : "7szuecWAPwGoV1e5vGu8tl",
+      "name" : "In Your Eyes",
+      "explicit" : true,
+      "uri" : "spotify:track:7szuecWAPwGoV1e5vGu8tl",
+      "album" : null,
+      "duration_ms" : 237520
+    }, {
+      "id" : "5QO79kh1waicV47BqGRL3g",
+      "name" : "Save Your Tears",
+      "explicit" : true,
+      "uri" : "spotify:track:5QO79kh1waicV47BqGRL3g",
+      "album" : null,
+      "duration_ms" : 215626
+    }, {
+      "id" : "40U8d12pC5UHqmHwXjHjjl",
+      "name" : "Repeat After Me (Interlude)",
+      "explicit" : true,
+      "uri" : "spotify:track:40U8d12pC5UHqmHwXjHjjl",
+      "album" : null,
+      "duration_ms" : 195813
+    }, {
+      "id" : "2p8IUWQDrpjuFltbdgLOag",
+      "name" : "After Hours",
+      "explicit" : false,
+      "uri" : "spotify:track:2p8IUWQDrpjuFltbdgLOag",
+      "album" : null,
+      "duration_ms" : 361026
+    }, {
+      "id" : "2BcnxwxBuar5wjCaLqm5N3",
+      "name" : "Until I Bleed Out",
+      "explicit" : true,
+      "uri" : "spotify:track:2BcnxwxBuar5wjCaLqm5N3",
+      "album" : null,
+      "duration_ms" : 190173
+    } ],
+    "images" : [ {
+      "url" : null,
+      "height" : 640,
+      "width" : 640
+    }, {
+      "url" : "ab67616d00001e028863bc11d2aa12b54f5aeb36.jpeg",
+      "height" : 300,
+      "width" : 300
+    }, {
+      "url" : "ab67616d000048518863bc11d2aa12b54f5aeb36.jpeg",
+      "height" : 64,
+      "width" : 64
+    } ]
+  },
+  "3T4tUhGYeRNVUGevb0wThu" : {
+    "artistId" : null,
+    "id" : "3T4tUhGYeRNVUGevb0wThu",
+    "name" : "÷ (Deluxe)",
+    "uri" : "spotify:album:3T4tUhGYeRNVUGevb0wThu",
+    "release_date" : "2017-03-03",
+    "total_tracks" : 16,
+    "tracks" : [ {
+      "id" : "7oolFzHipTMg2nL7shhdz2",
+      "name" : "Eraser",
+      "explicit" : false,
+      "uri" : "spotify:track:7oolFzHipTMg2nL7shhdz2",
+      "album" : null,
+      "duration_ms" : 227426
+    }, {
+      "id" : "6PCUP3dWmTjcTtXY02oFdT",
+      "name" : "Castle on the Hill",
+      "explicit" : false,
+      "uri" : "spotify:track:6PCUP3dWmTjcTtXY02oFdT",
+      "album" : null,
+      "duration_ms" : 261153
+    }, {
+      "id" : "51ChrwmUPDJvedPQnIU8Ls",
+      "name" : "Dive",
+      "explicit" : false,
+      "uri" : "spotify:track:51ChrwmUPDJvedPQnIU8Ls",
+      "album" : null,
+      "duration_ms" : 238440
+    }, {
+      "id" : "7qiZfU4dY1lWllzX7mPBI3",
+      "name" : "Shape of You",
+      "explicit" : false,
+      "uri" : "spotify:track:7qiZfU4dY1lWllzX7mPBI3",
+      "album" : null,
+      "duration_ms" : 233712
+    }, {
+      "id" : "0tgVpDi06FyKpA1z0VMD4v",
+      "name" : "Perfect",
+      "explicit" : false,
+      "uri" : "spotify:track:0tgVpDi06FyKpA1z0VMD4v",
+      "album" : null,
+      "duration_ms" : 263400
+    }, {
+      "id" : "0afhq8XCExXpqazXczTSve",
+      "name" : "Galway Girl",
+      "explicit" : false,
+      "uri" : "spotify:track:0afhq8XCExXpqazXczTSve",
+      "album" : null,
+      "duration_ms" : 170826
+    }, {
+      "id" : "2RttW7RAu5nOAfq6YFvApB",
+      "name" : "Happier",
+      "explicit" : false,
+      "uri" : "spotify:track:2RttW7RAu5nOAfq6YFvApB",
+      "album" : null,
+      "duration_ms" : 207520
+    }, {
+      "id" : "5HDPtsnyb3maFmPL8LLUTG",
+      "name" : "New Man",
+      "explicit" : false,
+      "uri" : "spotify:track:5HDPtsnyb3maFmPL8LLUTG",
+      "album" : null,
+      "duration_ms" : 189280
+    }, {
+      "id" : "2dfHh7ECGxfNqZTQno09Vk",
+      "name" : "Hearts Don't Break Around Here",
+      "explicit" : false,
+      "uri" : "spotify:track:2dfHh7ECGxfNqZTQno09Vk",
+      "album" : null,
+      "duration_ms" : 248413
+    }, {
+      "id" : "2pJZ1v8HezrAoZ0Fhzby92",
+      "name" : "What Do I Know?",
+      "explicit" : false,
+      "uri" : "spotify:track:2pJZ1v8HezrAoZ0Fhzby92",
+      "album" : null,
+      "duration_ms" : 237333
+    }, {
+      "id" : "6PJ8FF6UR8FZXfEvpHkIVN",
+      "name" : "How Would You Feel (Paean)",
+      "explicit" : false,
+      "uri" : "spotify:track:6PJ8FF6UR8FZXfEvpHkIVN",
+      "album" : null,
+      "duration_ms" : 280533
+    }, {
+      "id" : "4VuS959DSpr82t3qBqCrWG",
+      "name" : "Supermarket Flowers",
+      "explicit" : false,
+      "uri" : "spotify:track:4VuS959DSpr82t3qBqCrWG",
+      "album" : null,
+      "duration_ms" : 221106
+    }, {
+      "id" : "3Lfiu5sZ4M4B6JaKMBc0FU",
+      "name" : "Barcelona",
+      "explicit" : false,
+      "uri" : "spotify:track:3Lfiu5sZ4M4B6JaKMBc0FU",
+      "album" : null,
+      "duration_ms" : 191146
+    }, {
+      "id" : "6SznMYPQJHzr3IwsAHLId2",
+      "name" : "Bibia Be Ye Ye",
+      "explicit" : false,
+      "uri" : "spotify:track:6SznMYPQJHzr3IwsAHLId2",
+      "album" : null,
+      "duration_ms" : 176746
+    }, {
+      "id" : "35QZaWQRkmnAVqBF1TLCxQ",
+      "name" : "Nancy Mulligan",
+      "explicit" : false,
+      "uri" : "spotify:track:35QZaWQRkmnAVqBF1TLCxQ",
+      "album" : null,
+      "duration_ms" : 179786
+    }, {
+      "id" : "6TIU9Ehmi6dMzZK73Ym4yj",
+      "name" : "Save Myself",
+      "explicit" : false,
+      "uri" : "spotify:track:6TIU9Ehmi6dMzZK73Ym4yj",
+      "album" : null,
+      "duration_ms" : 247106
+    } ],
+    "images" : [ {
+      "url" : null,
+      "height" : 640,
+      "width" : 640
+    }, {
+      "url" : "ab67616d00001e02ba5db46f4b838ef6027e6f96.jpeg",
+      "height" : 300,
+      "width" : 300
+    }, {
+      "url" : "ab67616d00004851ba5db46f4b838ef6027e6f96.jpeg",
+      "height" : 64,
+      "width" : 64
+    } ]
+  },
+  "5658aM19fA3JVwTK6eQX70" : {
+    "artistId" : null,
+    "id" : "5658aM19fA3JVwTK6eQX70",
+    "name" : "Divinely Uninspired To A Hellish Extent",
+    "uri" : "spotify:album:5658aM19fA3JVwTK6eQX70",
+    "release_date" : "2019-05-17",
+    "total_tracks" : 12,
+    "tracks" : [ {
+      "id" : "0pEkK8MqbmGSX7fT8WLMbR",
+      "name" : "Grace",
+      "explicit" : false,
+      "uri" : "spotify:track:0pEkK8MqbmGSX7fT8WLMbR",
+      "album" : null,
+      "duration_ms" : 185657
+    }, {
+      "id" : "4Of7rzpRpV1mWRbhp5rAqG",
+      "name" : "Bruises",
+      "explicit" : false,
+      "uri" : "spotify:track:4Of7rzpRpV1mWRbhp5rAqG",
+      "album" : null,
+      "duration_ms" : 220492
+    }, {
+      "id" : "60iSKGrGazRzICtMjADNSM",
+      "name" : "Hold Me While You Wait",
+      "explicit" : false,
+      "uri" : "spotify:track:60iSKGrGazRzICtMjADNSM",
+      "album" : null,
+      "duration_ms" : 205686
+    }, {
+      "id" : "7qEHsqek33rTcFNT9PFqLf",
+      "name" : "Someone You Loved",
+      "explicit" : false,
+      "uri" : "spotify:track:7qEHsqek33rTcFNT9PFqLf",
+      "album" : null,
+      "duration_ms" : 182160
+    }, {
+      "id" : "5HU2B0yEnvg5EUB8FWeoda",
+      "name" : "Maybe",
+      "explicit" : true,
+      "uri" : "spotify:track:5HU2B0yEnvg5EUB8FWeoda",
+      "album" : null,
+      "duration_ms" : 210116
+    }, {
+      "id" : "12OLyHDxt6dqlAybSPFBK3",
+      "name" : "Forever",
+      "explicit" : false,
+      "uri" : "spotify:track:12OLyHDxt6dqlAybSPFBK3",
+      "album" : null,
+      "duration_ms" : 210863
+    }, {
+      "id" : "5C1TucCRf4Vjjree1OItyv",
+      "name" : "One",
+      "explicit" : false,
+      "uri" : "spotify:track:5C1TucCRf4Vjjree1OItyv",
+      "album" : null,
+      "duration_ms" : 179907
+    }, {
+      "id" : "4QGHin0gSqzPrPJhPU5gWn",
+      "name" : "Don't Get Me Wrong",
+      "explicit" : false,
+      "uri" : "spotify:track:4QGHin0gSqzPrPJhPU5gWn",
+      "album" : null,
+      "duration_ms" : 213091
+    }, {
+      "id" : "5uGjeXi3epIE8N2ITkxIQ5",
+      "name" : "Hollywood",
+      "explicit" : false,
+      "uri" : "spotify:track:5uGjeXi3epIE8N2ITkxIQ5",
+      "album" : null,
+      "duration_ms" : 191843
+    }, {
+      "id" : "6glNKSv2aUtfQhe1SJBZZt",
+      "name" : "Lost On You",
+      "explicit" : false,
+      "uri" : "spotify:track:6glNKSv2aUtfQhe1SJBZZt",
+      "album" : null,
+      "duration_ms" : 197178
+    }, {
+      "id" : "6r2tV58enH9E8hj2oqoJNK",
+      "name" : "Fade",
+      "explicit" : true,
+      "uri" : "spotify:track:6r2tV58enH9E8hj2oqoJNK",
+      "album" : null,
+      "duration_ms" : 246053
+    }, {
+      "id" : "4RtlhOoWNO5ReUwdmTdTcG",
+      "name" : "Headspace",
+      "explicit" : false,
+      "uri" : "spotify:track:4RtlhOoWNO5ReUwdmTdTcG",
+      "album" : null,
+      "duration_ms" : 306801
+    } ],
+    "images" : [ {
+      "url" : null,
+      "height" : 640,
+      "width" : 640
+    }, {
+      "url" : "ab67616d00001e02fc2101e6889d6ce9025f85f2.jpeg",
+      "height" : 300,
+      "width" : 300
+    }, {
+      "url" : "ab67616d00004851fc2101e6889d6ce9025f85f2.jpeg",
+      "height" : 64,
+      "width" : 64
+    } ]
+  },
+  "5r36AJ6VOJtp00oxSkBZ5h" : {
+    "artistId" : null,
+    "id" : "5r36AJ6VOJtp00oxSkBZ5h",
+    "name" : "Harry's House",
+    "uri" : "spotify:album:5r36AJ6VOJtp00oxSkBZ5h",
+    "release_date" : "2022-05-20",
+    "total_tracks" : 13,
+    "tracks" : [ {
+      "id" : "5LYMamLv12UPbemOaTPyeV",
+      "name" : "Music For a Sushi Restaurant",
+      "explicit" : false,
+      "uri" : "spotify:track:5LYMamLv12UPbemOaTPyeV",
+      "album" : null,
+      "duration_ms" : 193813
+    }, {
+      "id" : "1qEmFfgcLObUfQm0j1W2CK",
+      "name" : "Late Night Talking",
+      "explicit" : false,
+      "uri" : "spotify:track:1qEmFfgcLObUfQm0j1W2CK",
+      "album" : null,
+      "duration_ms" : 177954
+    }, {
+      "id" : "4j6kId9QIqhoXvqHKgSKa0",
+      "name" : "Grapejuice",
+      "explicit" : false,
+      "uri" : "spotify:track:4j6kId9QIqhoXvqHKgSKa0",
+      "album" : null,
+      "duration_ms" : 191958
+    }, {
+      "id" : "4Dvkj6JhhA12EX05fT7y2e",
+      "name" : "As It Was",
+      "explicit" : false,
+      "uri" : "spotify:track:4Dvkj6JhhA12EX05fT7y2e",
+      "album" : null,
+      "duration_ms" : 167303
+    }, {
+      "id" : "51Zw1cKDgkad0CXv23HCMU",
+      "name" : "Daylight",
+      "explicit" : false,
+      "uri" : "spotify:track:51Zw1cKDgkad0CXv23HCMU",
+      "album" : null,
+      "duration_ms" : 164533
+    }, {
+      "id" : "3i058E8uxTsYqJ5NWZzqSj",
+      "name" : "Little Freak",
+      "explicit" : false,
+      "uri" : "spotify:track:3i058E8uxTsYqJ5NWZzqSj",
+      "album" : null,
+      "duration_ms" : 202183
+    }, {
+      "id" : "6uvh0In7u1Xn4HgxOfAn8O",
+      "name" : "Matilda",
+      "explicit" : false,
+      "uri" : "spotify:track:6uvh0In7u1Xn4HgxOfAn8O",
+      "album" : null,
+      "duration_ms" : 245964
+    }, {
+      "id" : "35TyJIMR3xRouUuo2sjS6v",
+      "name" : "Cinema",
+      "explicit" : false,
+      "uri" : "spotify:track:35TyJIMR3xRouUuo2sjS6v",
+      "album" : null,
+      "duration_ms" : 243507
+    }, {
+      "id" : "69w5X6uTrOaWM32IetSzvO",
+      "name" : "Daydreaming",
+      "explicit" : false,
+      "uri" : "spotify:track:69w5X6uTrOaWM32IetSzvO",
+      "album" : null,
+      "duration_ms" : 187342
+    }, {
+      "id" : "2NcQic8JxdjAlAHuNbOIRE",
+      "name" : "Keep Driving",
+      "explicit" : false,
+      "uri" : "spotify:track:2NcQic8JxdjAlAHuNbOIRE",
+      "album" : null,
+      "duration_ms" : 140241
+    }, {
+      "id" : "0rzaRSujxA0bKyjJl6vHYq",
+      "name" : "Satellite",
+      "explicit" : false,
+      "uri" : "spotify:track:0rzaRSujxA0bKyjJl6vHYq",
+      "album" : null,
+      "duration_ms" : 218577
+    }, {
+      "id" : "6qj02zSeEJGWZ4c0dn5QzJ",
+      "name" : "Boyfriends",
+      "explicit" : false,
+      "uri" : "spotify:track:6qj02zSeEJGWZ4c0dn5QzJ",
+      "album" : null,
+      "duration_ms" : 194543
+    }, {
+      "id" : "1mw0RgNXIpYRyyCdBQbLgA",
+      "name" : "Love Of My Life",
+      "explicit" : false,
+      "uri" : "spotify:track:1mw0RgNXIpYRyyCdBQbLgA",
+      "album" : null,
+      "duration_ms" : 191638
+    } ],
+    "images" : [ {
+      "url" : null,
+      "height" : 640,
+      "width" : 640
+    }, {
+      "url" : "ab67616d00001e022e8ed79e177ff6011076f5f0.jpeg",
+      "height" : 300,
+      "width" : 300
+    }, {
+      "url" : "ab67616d000048512e8ed79e177ff6011076f5f0.jpeg",
+      "height" : 64,
+      "width" : 64
+    } ]
+  },
+  "35s58BRTGAEWztPo9WqCIs" : {
+    "artistId" : null,
+    "id" : "35s58BRTGAEWztPo9WqCIs",
+    "name" : "Spider-Man: Into the Spider-Verse (Soundtrack From & Inspired by the Motion Picture)",
+    "uri" : "spotify:album:35s58BRTGAEWztPo9WqCIs",
+    "release_date" : "2018-12-14",
+    "total_tracks" : 13,
+    "tracks" : [ {
+      "id" : "5zsHmE2gO3RefVsPyw2e3T",
+      "name" : "What's Up Danger (with Black Caviar)",
+      "explicit" : false,
+      "uri" : "spotify:track:5zsHmE2gO3RefVsPyw2e3T",
+      "album" : null,
+      "duration_ms" : 222306
+    }, {
+      "id" : "3KkXRkHbMCARz0aVfEt68P",
+      "name" : "Sunflower - Spider-Man: Into the Spider-Verse",
+      "explicit" : false,
+      "uri" : "spotify:track:3KkXRkHbMCARz0aVfEt68P",
+      "album" : null,
+      "duration_ms" : 158040
+    }, {
+      "id" : "7cFFhb9Wz2ZXLSpEk2VDKd",
+      "name" : "Way Up",
+      "explicit" : false,
+      "uri" : "spotify:track:7cFFhb9Wz2ZXLSpEk2VDKd",
+      "album" : null,
+      "duration_ms" : 153773
+    }, {
+      "id" : "4Uy3kNxW2kB8AEoXljEcth",
+      "name" : "Familia (with Anuel Aa, feat. Bantu) - Spider-Man: Into the Spider-Verse",
+      "explicit" : false,
+      "uri" : "spotify:track:4Uy3kNxW2kB8AEoXljEcth",
+      "album" : null,
+      "duration_ms" : 174893
+    }, {
+      "id" : "6VS7wKwtvL2FvTupYSWZ9e",
+      "name" : "Invincible",
+      "explicit" : false,
+      "uri" : "spotify:track:6VS7wKwtvL2FvTupYSWZ9e",
+      "album" : null,
+      "duration_ms" : 196386
+    }, {
+      "id" : "6V81K1OcvYgHEnCA6A2Qx9",
+      "name" : "Start a Riot",
+      "explicit" : false,
+      "uri" : "spotify:track:6V81K1OcvYgHEnCA6A2Qx9",
+      "album" : null,
+      "duration_ms" : 171466
+    }, {
+      "id" : "6rz0dTA0PdhXImFV5EjM0w",
+      "name" : "Hide (feat. Seezyn)",
+      "explicit" : false,
+      "uri" : "spotify:track:6rz0dTA0PdhXImFV5EjM0w",
+      "album" : null,
+      "duration_ms" : 205800
+    }, {
+      "id" : "2CWOMDYFK4Ef3867nEhnVM",
+      "name" : "Memories",
+      "explicit" : false,
+      "uri" : "spotify:track:2CWOMDYFK4Ef3867nEhnVM",
+      "album" : null,
+      "duration_ms" : 199146
+    }, {
+      "id" : "0vkzRCT7wzqWCFJw5TN1MQ",
+      "name" : "Save The Day (feat. Coi Leray & LouGotCash)",
+      "explicit" : false,
+      "uri" : "spotify:track:0vkzRCT7wzqWCFJw5TN1MQ",
+      "album" : null,
+      "duration_ms" : 178720
+    }, {
+      "id" : "5F2AuFzEiuAQD0JVNjVJQz",
+      "name" : "Let Go",
+      "explicit" : false,
+      "uri" : "spotify:track:5F2AuFzEiuAQD0JVNjVJQz",
+      "album" : null,
+      "duration_ms" : 177653
+    }, {
+      "id" : "3vWzyGTu6Ovo1GdrcJqH6e",
+      "name" : "Scared of the Dark (feat. XXXTENTACION)",
+      "explicit" : false,
+      "uri" : "spotify:track:3vWzyGTu6Ovo1GdrcJqH6e",
+      "album" : null,
+      "duration_ms" : 233000
+    }, {
+      "id" : "6kiauSlWtddVQx4JwJx51p",
+      "name" : "Elevate (feat. Denzel Curry, YBN Cordae, SwaVay, Trevor Rich)",
+      "explicit" : false,
+      "uri" : "spotify:track:6kiauSlWtddVQx4JwJx51p",
+      "album" : null,
+      "duration_ms" : 219400
+    }, {
+      "id" : "7pBsquIkbED6W6uSQJGbkn",
+      "name" : "Home",
+      "explicit" : false,
+      "uri" : "spotify:track:7pBsquIkbED6W6uSQJGbkn",
+      "album" : null,
+      "duration_ms" : 211360
+    } ],
+    "images" : [ {
+      "url" : null,
+      "height" : 640,
+      "width" : 640
+    }, {
+      "url" : "ab67616d00001e02e2e352d89826aef6dbd5ff8f.jpeg",
+      "height" : 300,
+      "width" : 300
+    }, {
+      "url" : "ab67616d00004851e2e352d89826aef6dbd5ff8f.jpeg",
+      "height" : 64,
+      "width" : 64
+    } ]
+  },
+  "09fggMHib4YkOtwQNXEBII" : {
+    "artistId" : null,
+    "id" : "09fggMHib4YkOtwQNXEBII",
+    "name" : "Starboy",
+    "uri" : "spotify:album:09fggMHib4YkOtwQNXEBII",
+    "release_date" : "2016-11-25",
+    "total_tracks" : 18,
+    "tracks" : [ {
+      "id" : "5aAx2yezTd8zXrkmtKl66Z",
+      "name" : "Starboy",
+      "explicit" : true,
+      "uri" : "spotify:track:5aAx2yezTd8zXrkmtKl66Z",
+      "album" : null,
+      "duration_ms" : 230453
+    }, {
+      "id" : "4nAyv6465LBywy7tOx78bc",
+      "name" : "Party Monster",
+      "explicit" : true,
+      "uri" : "spotify:track:4nAyv6465LBywy7tOx78bc",
+      "album" : null,
+      "duration_ms" : 249213
+    }, {
+      "id" : "09FhDfmrSDN162X1yFfapI",
+      "name" : "False Alarm",
+      "explicit" : false,
+      "uri" : "spotify:track:09FhDfmrSDN162X1yFfapI",
+      "album" : null,
+      "duration_ms" : 220306
+    }, {
+      "id" : "3IU6xbfNZosvTdRrGs8b2u",
+      "name" : "Reminder",
+      "explicit" : true,
+      "uri" : "spotify:track:3IU6xbfNZosvTdRrGs8b2u",
+      "album" : null,
+      "duration_ms" : 218880
+    }, {
+      "id" : "5HR4CYT5nPpFy8m9wJQgrr",
+      "name" : "Rockin’",
+      "explicit" : true,
+      "uri" : "spotify:track:5HR4CYT5nPpFy8m9wJQgrr",
+      "album" : null,
+      "duration_ms" : 232880
+    }, {
+      "id" : "6kP57bEoT8R9ytlGUfUTmB",
+      "name" : "Secrets",
+      "explicit" : false,
+      "uri" : "spotify:track:6kP57bEoT8R9ytlGUfUTmB",
+      "album" : null,
+      "duration_ms" : 265600
+    }, {
+      "id" : "1XZkxBNZT13KoAexAKB2lp",
+      "name" : "True Colors",
+      "explicit" : false,
+      "uri" : "spotify:track:1XZkxBNZT13KoAexAKB2lp",
+      "album" : null,
+      "duration_ms" : 206013
+    }, {
+      "id" : "3QvwFrhH9MTpeskhOaNDl4",
+      "name" : "Stargirl Interlude",
+      "explicit" : false,
+      "uri" : "spotify:track:3QvwFrhH9MTpeskhOaNDl4",
+      "album" : null,
+      "duration_ms" : 111640
+    }, {
+      "id" : "7y2SOXPaH6ORTya7ROEzy0",
+      "name" : "Sidewalks",
+      "explicit" : true,
+      "uri" : "spotify:track:7y2SOXPaH6ORTya7ROEzy0",
+      "album" : null,
+      "duration_ms" : 231360
+    }, {
+      "id" : "54Bdz1CeXqh2fpAfGT59CN",
+      "name" : "Six Feet Under",
+      "explicit" : true,
+      "uri" : "spotify:track:54Bdz1CeXqh2fpAfGT59CN",
+      "album" : null,
+      "duration_ms" : 237573
+    }, {
+      "id" : "1w6EY8Wkqw4TxYUxiids7C",
+      "name" : "Love To Lay",
+      "explicit" : false,
+      "uri" : "spotify:track:1w6EY8Wkqw4TxYUxiids7C",
+      "album" : null,
+      "duration_ms" : 223293
+    }, {
+      "id" : "00xzzjRjiIhOXsagSUozdy",
+      "name" : "A Lonely Night",
+      "explicit" : false,
+      "uri" : "spotify:track:00xzzjRjiIhOXsagSUozdy",
+      "album" : null,
+      "duration_ms" : 220173
+    }, {
+      "id" : "6OiZEXU5hBZHmnvRhaKbl5",
+      "name" : "Attention",
+      "explicit" : true,
+      "uri" : "spotify:track:6OiZEXU5hBZHmnvRhaKbl5",
+      "album" : null,
+      "duration_ms" : 197653
+    }, {
+      "id" : "4yL7ZrNQDc1RoKg240aGu8",
+      "name" : "Ordinary Life",
+      "explicit" : false,
+      "uri" : "spotify:track:4yL7ZrNQDc1RoKg240aGu8",
+      "album" : null,
+      "duration_ms" : 221920
+    }, {
+      "id" : "3ThMRY8TlrPnpoaQ3hdNsF",
+      "name" : "Nothing Without You",
+      "explicit" : false,
+      "uri" : "spotify:track:3ThMRY8TlrPnpoaQ3hdNsF",
+      "album" : null,
+      "duration_ms" : 198653
+    }, {
+      "id" : "7LjrpYAKy6hPmncnK2Ju9s",
+      "name" : "All I Know",
+      "explicit" : true,
+      "uri" : "spotify:track:7LjrpYAKy6hPmncnK2Ju9s",
+      "album" : null,
+      "duration_ms" : 321026
+    }, {
+      "id" : "1zF69Xru3AToRB87kAKqra",
+      "name" : "Die For You",
+      "explicit" : false,
+      "uri" : "spotify:track:1zF69Xru3AToRB87kAKqra",
+      "album" : null,
+      "duration_ms" : 260253
+    }, {
+      "id" : "4RepvCWqsP6zBuzvwYibAS",
+      "name" : "I Feel It Coming",
+      "explicit" : false,
+      "uri" : "spotify:track:4RepvCWqsP6zBuzvwYibAS",
+      "album" : null,
+      "duration_ms" : 269186
+    } ],
+    "images" : [ {
+      "url" : null,
+      "height" : 640,
+      "width" : 640
+    }, {
+      "url" : "ab67616d00001e020c8599cbde51245c128bcea9.jpeg",
+      "height" : 300,
+      "width" : 300
+    }, {
+      "url" : "ab67616d000048510c8599cbde51245c128bcea9.jpeg",
+      "height" : 64,
+      "width" : 64
+    } ]
+  },
+  "3hARKC8cinq3mZLLAEaBh9" : {
+    "artistId" : null,
+    "id" : "3hARKC8cinq3mZLLAEaBh9",
+    "name" : "Views",
+    "uri" : "spotify:album:3hARKC8cinq3mZLLAEaBh9",
+    "release_date" : "2016-05-06",
+    "total_tracks" : 20,
+    "tracks" : [ {
+      "id" : "4oew1mJmqFITgwGG7QZl37",
+      "name" : "Keep The Family Close",
+      "explicit" : true,
+      "uri" : "spotify:track:4oew1mJmqFITgwGG7QZl37",
+      "album" : null,
+      "duration_ms" : 328906
+    }, {
+      "id" : "28XwBLUtFxOGoWzovwsdyJ",
+      "name" : "9",
+      "explicit" : true,
+      "uri" : "spotify:track:28XwBLUtFxOGoWzovwsdyJ",
+      "album" : null,
+      "duration_ms" : 255786
+    }, {
+      "id" : "1my81o4N4vaHpcMlA3Gj4y",
+      "name" : "U With Me?",
+      "explicit" : true,
+      "uri" : "spotify:track:1my81o4N4vaHpcMlA3Gj4y",
+      "album" : null,
+      "duration_ms" : 297373
+    }, {
+      "id" : "6H7b2XG2xcpctrl602BwGl",
+      "name" : "Feel No Ways",
+      "explicit" : true,
+      "uri" : "spotify:track:6H7b2XG2xcpctrl602BwGl",
+      "album" : null,
+      "duration_ms" : 240653
+    }, {
+      "id" : "7JnEdTyLhvRAZUg8z53Gx3",
+      "name" : "Hype",
+      "explicit" : true,
+      "uri" : "spotify:track:7JnEdTyLhvRAZUg8z53Gx3",
+      "album" : null,
+      "duration_ms" : 209413
+    }, {
+      "id" : "5rn98Px14UpOBtDuhZAAvV",
+      "name" : "Weston Road Flows",
+      "explicit" : true,
+      "uri" : "spotify:track:5rn98Px14UpOBtDuhZAAvV",
+      "album" : null,
+      "duration_ms" : 253533
+    }, {
+      "id" : "2DTNkIFrsB8nQ5Gt8vJAmZ",
+      "name" : "Redemption",
+      "explicit" : true,
+      "uri" : "spotify:track:2DTNkIFrsB8nQ5Gt8vJAmZ",
+      "album" : null,
+      "duration_ms" : 333946
+    }, {
+      "id" : "4p3hA9qjCRix74GyuI3Qm5",
+      "name" : "With You",
+      "explicit" : true,
+      "uri" : "spotify:track:4p3hA9qjCRix74GyuI3Qm5",
+      "album" : null,
+      "duration_ms" : 195053
+    }, {
+      "id" : "5csyFWmmFlqKXh3ehjom3H",
+      "name" : "Faithful",
+      "explicit" : true,
+      "uri" : "spotify:track:5csyFWmmFlqKXh3ehjom3H",
+      "album" : null,
+      "duration_ms" : 290133
+    }, {
+      "id" : "7juAP7GZBF0Dtm0qqLSWOJ",
+      "name" : "Still Here",
+      "explicit" : true,
+      "uri" : "spotify:track:7juAP7GZBF0Dtm0qqLSWOJ",
+      "album" : null,
+      "duration_ms" : 189853
+    }, {
+      "id" : "6F609ICg9Spjrw1epsAnpa",
+      "name" : "Controlla",
+      "explicit" : true,
+      "uri" : "spotify:track:6F609ICg9Spjrw1epsAnpa",
+      "album" : null,
+      "duration_ms" : 245226
+    }, {
+      "id" : "1xznGGDReH1oQq0xzbwXa3",
+      "name" : "One Dance",
+      "explicit" : false,
+      "uri" : "spotify:track:1xznGGDReH1oQq0xzbwXa3",
+      "album" : null,
+      "duration_ms" : 173986
+    }, {
+      "id" : "5iemvGR1EraL9s3XvohIP3",
+      "name" : "Grammys",
+      "explicit" : true,
+      "uri" : "spotify:track:5iemvGR1EraL9s3XvohIP3",
+      "album" : null,
+      "duration_ms" : 220426
+    }, {
+      "id" : "2YuurylylBcB0fJ8ho5soN",
+      "name" : "Childs Play",
+      "explicit" : true,
+      "uri" : "spotify:track:2YuurylylBcB0fJ8ho5soN",
+      "album" : null,
+      "duration_ms" : 241400
+    }, {
+      "id" : "1WRy5l3TwrwlzNmB5bOeKw",
+      "name" : "Pop Style",
+      "explicit" : true,
+      "uri" : "spotify:track:1WRy5l3TwrwlzNmB5bOeKw",
+      "album" : null,
+      "duration_ms" : 212946
+    }, {
+      "id" : "11KJSRSgaDxqydKYiD2Jew",
+      "name" : "Too Good",
+      "explicit" : true,
+      "uri" : "spotify:track:11KJSRSgaDxqydKYiD2Jew",
+      "album" : null,
+      "duration_ms" : 263373
+    }, {
+      "id" : "7JANfTi37pZykRjB1JvPTV",
+      "name" : "Summers Over Interlude",
+      "explicit" : true,
+      "uri" : "spotify:track:7JANfTi37pZykRjB1JvPTV",
+      "album" : null,
+      "duration_ms" : 106333
+    }, {
+      "id" : "2ZB8Zwf6wd3PUMlSJKR2bG",
+      "name" : "Fire & Desire",
+      "explicit" : true,
+      "uri" : "spotify:track:2ZB8Zwf6wd3PUMlSJKR2bG",
+      "album" : null,
+      "duration_ms" : 238120
+    }, {
+      "id" : "6Q9FvTex292zY3qUpPTptJ",
+      "name" : "Views",
+      "explicit" : true,
+      "uri" : "spotify:track:6Q9FvTex292zY3qUpPTptJ",
+      "album" : null,
+      "duration_ms" : 311960
+    }, {
+      "id" : "2FBUoWkIuQXwayw2RNo5l6",
+      "name" : "Hotline Bling",
+      "explicit" : false,
+      "uri" : "spotify:track:2FBUoWkIuQXwayw2RNo5l6",
+      "album" : null,
+      "duration_ms" : 267066
+    } ],
+    "images" : [ {
+      "url" : null,
+      "height" : 640,
+      "width" : 640
+    }, {
+      "url" : "ab67616d00001e02726abca207567d5e41cb9667.jpeg",
+      "height" : 300,
+      "width" : 300
+    }, {
+      "url" : "ab67616d00004851726abca207567d5e41cb9667.jpeg",
+      "height" : 64,
+      "width" : 64
+    } ]
+  },
+  "4bZJWQhHKJckFLJuYdvyX2" : {
+    "artistId" : null,
+    "id" : "4bZJWQhHKJckFLJuYdvyX2",
+    "name" : "F*CK LOVE 3: OVER YOU",
+    "uri" : "spotify:album:4bZJWQhHKJckFLJuYdvyX2",
+    "release_date" : "2021-07-23",
+    "total_tracks" : 29,
+    "tracks" : [ {
+      "id" : "5vqJLLFlnmCaui7Ng7YAn1",
+      "name" : "OVER YOU",
+      "explicit" : true,
+      "uri" : "spotify:track:5vqJLLFlnmCaui7Ng7YAn1",
+      "album" : null,
+      "duration_ms" : 150888
+    }, {
+      "id" : "1JXBNvlDEl2epKSJ9EOgKX",
+      "name" : "NOT SOBER (feat. Polo G & Stunna Gambino)",
+      "explicit" : true,
+      "uri" : "spotify:track:1JXBNvlDEl2epKSJ9EOgKX",
+      "album" : null,
+      "duration_ms" : 216000
+    }, {
+      "id" : "5PjdY0CKGZdEuoNab3yDmX",
+      "name" : "STAY (with Justin Bieber)",
+      "explicit" : true,
+      "uri" : "spotify:track:5PjdY0CKGZdEuoNab3yDmX",
+      "album" : null,
+      "duration_ms" : 141805
+    }, {
+      "id" : "3mXOssdHHkN6AvLw6ZgKiL",
+      "name" : "SAME ENERGY",
+      "explicit" : true,
+      "uri" : "spotify:track:3mXOssdHHkN6AvLw6ZgKiL",
+      "album" : null,
+      "duration_ms" : 93176
+    }, {
+      "id" : "4sbyUpMYCeJXwZicQV9YrE",
+      "name" : "DON'T LEAVE ME (feat. G Herbo & Lil Durk)",
+      "explicit" : true,
+      "uri" : "spotify:track:4sbyUpMYCeJXwZicQV9YrE",
+      "album" : null,
+      "duration_ms" : 167965
+    }, {
+      "id" : "5z6f5HNjkDhzdouZp5dYtx",
+      "name" : "BAD NEWS",
+      "explicit" : true,
+      "uri" : "spotify:track:5z6f5HNjkDhzdouZp5dYtx",
+      "album" : null,
+      "duration_ms" : 131364
+    }, {
+      "id" : "637YZncqOkeFzcTmr7YijJ",
+      "name" : "STILL CHOSE YOU (feat. Mustard)",
+      "explicit" : true,
+      "uri" : "spotify:track:637YZncqOkeFzcTmr7YijJ",
+      "album" : null,
+      "duration_ms" : 171428
+    }, {
+      "id" : "4OpJ7LWKdMfS826CsKOVQa",
+      "name" : "PIKACHU",
+      "explicit" : true,
+      "uri" : "spotify:track:4OpJ7LWKdMfS826CsKOVQa",
+      "album" : null,
+      "duration_ms" : 133723
+    }, {
+      "id" : "6gnIT6FAKiabifumjZZ2Kk",
+      "name" : "SO DONE",
+      "explicit" : false,
+      "uri" : "spotify:track:6gnIT6FAKiabifumjZZ2Kk",
+      "album" : null,
+      "duration_ms" : 126521
+    }, {
+      "id" : "2LMxRPG28pafIYruXTPdlB",
+      "name" : "TRAGIC (feat. Youngboy Never Broke Again & Internet Money)",
+      "explicit" : true,
+      "uri" : "spotify:track:2LMxRPG28pafIYruXTPdlB",
+      "album" : null,
+      "duration_ms" : 153147
+    }, {
+      "id" : "0WPz9GrRaMaFUVdVWKpx2U",
+      "name" : "ALWAYS DO",
+      "explicit" : true,
+      "uri" : "spotify:track:0WPz9GrRaMaFUVdVWKpx2U",
+      "album" : null,
+      "duration_ms" : 151704
+    }, {
+      "id" : "2meUwHuMyPM0Ng1iTOc8eQ",
+      "name" : "FEEL SOMETHING (feat. Marshmello)",
+      "explicit" : true,
+      "uri" : "spotify:track:2meUwHuMyPM0Ng1iTOc8eQ",
+      "album" : null,
+      "duration_ms" : 139040
+    }, {
+      "id" : "59Y0p04ejSaryeMpEpxXBO",
+      "name" : "F*CK YOU, GOODBYE (feat. Machine Gun Kelly)",
+      "explicit" : true,
+      "uri" : "spotify:track:59Y0p04ejSaryeMpEpxXBO",
+      "album" : null,
+      "duration_ms" : 144860
+    }, {
+      "id" : "7ECUhSzvcBY41ocbVfII0i",
+      "name" : "WITHOUT YOU",
+      "explicit" : true,
+      "uri" : "spotify:track:7ECUhSzvcBY41ocbVfII0i",
+      "album" : null,
+      "duration_ms" : 161384
+    }, {
+      "id" : "4bnGPHzv9pXwTZO4ff9s7L",
+      "name" : "BOOTY CALL (skit)",
+      "explicit" : true,
+      "uri" : "spotify:track:4bnGPHzv9pXwTZO4ff9s7L",
+      "album" : null,
+      "duration_ms" : 56808
+    }, {
+      "id" : "2dAoTmF7sqllL6aocE2y4X",
+      "name" : "MAYBE",
+      "explicit" : true,
+      "uri" : "spotify:track:2dAoTmF7sqllL6aocE2y4X",
+      "album" : null,
+      "duration_ms" : 174182
+    }, {
+      "id" : "0J9twvVpsg41S52g0b6XJi",
+      "name" : "WRONG",
+      "explicit" : true,
+      "uri" : "spotify:track:0J9twvVpsg41S52g0b6XJi",
+      "album" : null,
+      "duration_ms" : 183567
+    }, {
+      "id" : "6Yjk3aBsPjxRufW0MwXF3m",
+      "name" : "I WISH",
+      "explicit" : false,
+      "uri" : "spotify:track:6Yjk3aBsPjxRufW0MwXF3m",
+      "album" : null,
+      "duration_ms" : 125571
+    }, {
+      "id" : "71oR38QATFtuSLt9glVD74",
+      "name" : "NOT FAIR",
+      "explicit" : true,
+      "uri" : "spotify:track:71oR38QATFtuSLt9glVD74",
+      "album" : null,
+      "duration_ms" : 166688
+    }, {
+      "id" : "0eDXcFNgdDIzd9hXJWAe5h",
+      "name" : "BATHROOM (skit)",
+      "explicit" : true,
+      "uri" : "spotify:track:0eDXcFNgdDIzd9hXJWAe5h",
+      "album" : null,
+      "duration_ms" : 24939
+    }, {
+      "id" : "6bwuDH3fmhojVFS9YshyMO",
+      "name" : "GO (feat. Juice WRLD)",
+      "explicit" : true,
+      "uri" : "spotify:track:6bwuDH3fmhojVFS9YshyMO",
+      "album" : null,
+      "duration_ms" : 181688
+    }, {
+      "id" : "4WiUBshkMuOzwMM4kwnhHL",
+      "name" : "TELL ME WHY",
+      "explicit" : true,
+      "uri" : "spotify:track:4WiUBshkMuOzwMM4kwnhHL",
+      "album" : null,
+      "duration_ms" : 195268
+    }, {
+      "id" : "4RfCOEyvRcPxwdiLu9WJFC",
+      "name" : "SAME THING",
+      "explicit" : false,
+      "uri" : "spotify:track:4RfCOEyvRcPxwdiLu9WJFC",
+      "album" : null,
+      "duration_ms" : 124589
+    }, {
+      "id" : "4T9gU7aYa3T2quhczAJXEl",
+      "name" : "NEW GUY (skit)",
+      "explicit" : true,
+      "uri" : "spotify:track:4T9gU7aYa3T2quhczAJXEl",
+      "album" : null,
+      "duration_ms" : 21937
+    }, {
+      "id" : "4Za3oUw2HnCOterEHl5sbL",
+      "name" : "ERASE U",
+      "explicit" : true,
+      "uri" : "spotify:track:4Za3oUw2HnCOterEHl5sbL",
+      "album" : null,
+      "duration_ms" : 109094
+    }, {
+      "id" : "1TpOTy2OpICZry1UkxuIEg",
+      "name" : "RUNNING",
+      "explicit" : true,
+      "uri" : "spotify:track:1TpOTy2OpICZry1UkxuIEg",
+      "album" : null,
+      "duration_ms" : 135241
+    }, {
+      "id" : "2XYi665cW4grLOZpq939A7",
+      "name" : "WISH YOU WELL (skit)",
+      "explicit" : true,
+      "uri" : "spotify:track:2XYi665cW4grLOZpq939A7",
+      "album" : null,
+      "duration_ms" : 35300
+    }, {
+      "id" : "1BR1uwcmiTSQooTvC5geCR",
+      "name" : "NEED YOU MOST (So Sick)",
+      "explicit" : true,
+      "uri" : "spotify:track:1BR1uwcmiTSQooTvC5geCR",
+      "album" : null,
+      "duration_ms" : 135227
+    }, {
+      "id" : "4roaZCkw5Aoaw0S9gmTkXd",
+      "name" : "SELFISH",
+      "explicit" : true,
+      "uri" : "spotify:track:4roaZCkw5Aoaw0S9gmTkXd",
+      "album" : null,
+      "duration_ms" : 196202
+    } ],
+    "images" : [ {
+      "url" : null,
+      "height" : 640,
+      "width" : 640
+    }, {
+      "url" : "ab67616d00001e028e6551a2944764bc8e33a960.jpeg",
+      "height" : 300,
+      "width" : 300
+    }, {
+      "url" : "ab67616d000048518e6551a2944764bc8e33a960.jpeg",
+      "height" : 64,
+      "width" : 64
+    } ]
+  },
+  "4xkM0BwLM9H2IUcbYzpcBI" : {
+    "artistId" : null,
+    "id" : "4xkM0BwLM9H2IUcbYzpcBI",
+    "name" : "I Love You.",
+    "uri" : "spotify:album:4xkM0BwLM9H2IUcbYzpcBI",
+    "release_date" : "2013-04-22",
+    "total_tracks" : 11,
+    "tracks" : [ {
+      "id" : "6mAuw7R6u4vlNneuBgnC8K",
+      "name" : "How",
+      "explicit" : false,
+      "uri" : "spotify:track:6mAuw7R6u4vlNneuBgnC8K",
+      "album" : null,
+      "duration_ms" : 314826
+    }, {
+      "id" : "7brQHA2CgQpcMBiOlfiXYb",
+      "name" : "Afraid",
+      "explicit" : true,
+      "uri" : "spotify:track:7brQHA2CgQpcMBiOlfiXYb",
+      "album" : null,
+      "duration_ms" : 251186
+    }, {
+      "id" : "0yyyapBjZ9Ek1vcpp3e9bj",
+      "name" : "Everybody's Watching Me (Uh Oh)",
+      "explicit" : false,
+      "uri" : "spotify:track:0yyyapBjZ9Ek1vcpp3e9bj",
+      "album" : null,
+      "duration_ms" : 238026
+    }, {
+      "id" : "2QjOHCTQ1Jl3zawyYOpxh6",
+      "name" : "Sweater Weather",
+      "explicit" : false,
+      "uri" : "spotify:track:2QjOHCTQ1Jl3zawyYOpxh6",
+      "album" : null,
+      "duration_ms" : 240400
+    }, {
+      "id" : "6cWpj6c5pNZYEk5KYjNBji",
+      "name" : "Let It Go",
+      "explicit" : false,
+      "uri" : "spotify:track:6cWpj6c5pNZYEk5KYjNBji",
+      "album" : null,
+      "duration_ms" : 197266
+    }, {
+      "id" : "4V37tyDu9CtqYshvrgLke4",
+      "name" : "Alleyways",
+      "explicit" : true,
+      "uri" : "spotify:track:4V37tyDu9CtqYshvrgLke4",
+      "album" : null,
+      "duration_ms" : 267853
+    }, {
+      "id" : "3vooOYHU0Fi3ViCG7Ozh0Y",
+      "name" : "W.D.Y.W.F.M?",
+      "explicit" : true,
+      "uri" : "spotify:track:3vooOYHU0Fi3ViCG7Ozh0Y",
+      "album" : null,
+      "duration_ms" : 259413
+    }, {
+      "id" : "2Kt1XplPBQBsDKQDa6TssB",
+      "name" : "Flawless",
+      "explicit" : true,
+      "uri" : "spotify:track:2Kt1XplPBQBsDKQDa6TssB",
+      "album" : null,
+      "duration_ms" : 246493
+    }, {
+      "id" : "4BDnfINTlfJPmLp1UV6CXt",
+      "name" : "Female Robbery",
+      "explicit" : false,
+      "uri" : "spotify:track:4BDnfINTlfJPmLp1UV6CXt",
+      "album" : null,
+      "duration_ms" : 209520
+    }, {
+      "id" : "1NA2NvAgCB4EfcBC8OHfuj",
+      "name" : "Staying Up",
+      "explicit" : false,
+      "uri" : "spotify:track:1NA2NvAgCB4EfcBC8OHfuj",
+      "album" : null,
+      "duration_ms" : 268173
+    }, {
+      "id" : "4MUvaBckjtNGlxX1IuHDPW",
+      "name" : "Float",
+      "explicit" : false,
+      "uri" : "spotify:track:4MUvaBckjtNGlxX1IuHDPW",
+      "album" : null,
+      "duration_ms" : 261200
+    } ],
+    "images" : [ {
+      "url" : null,
+      "height" : 640,
+      "width" : 640
+    }, {
+      "url" : "ab67616d00001e028265a736a1eb838ad5a0b921.jpeg",
+      "height" : 300,
+      "width" : 300
+    }, {
+      "url" : "ab67616d000048518265a736a1eb838ad5a0b921.jpeg",
+      "height" : 64,
+      "width" : 64
+    } ]
+  },
+  "5GlPAy2PRJW06GVFhKwGTl" : {
+    "artistId" : null,
+    "id" : "5GlPAy2PRJW06GVFhKwGTl",
+    "name" : "Evolve",
+    "uri" : "spotify:album:5GlPAy2PRJW06GVFhKwGTl",
+    "release_date" : "2017-06-23",
+    "total_tracks" : 11,
+    "tracks" : [ {
+      "id" : "15dnkAHcHC0vrIUlbiPiqU",
+      "name" : "I Don’t Know Why",
+      "explicit" : false,
+      "uri" : "spotify:track:15dnkAHcHC0vrIUlbiPiqU",
+      "album" : null,
+      "duration_ms" : 190120
+    }, {
+      "id" : "4IWAyPf1KMq7JCyGeCjTeH",
+      "name" : "Whatever It Takes",
+      "explicit" : false,
+      "uri" : "spotify:track:4IWAyPf1KMq7JCyGeCjTeH",
+      "album" : null,
+      "duration_ms" : 201240
+    }, {
+      "id" : "0CcQNd8CINkwQfe1RDtGV6",
+      "name" : "Believer",
+      "explicit" : false,
+      "uri" : "spotify:track:0CcQNd8CINkwQfe1RDtGV6",
+      "album" : null,
+      "duration_ms" : 204346
+    }, {
+      "id" : "6jmngk8Fwup05JZ6kgXEGX",
+      "name" : "Walking The Wire",
+      "explicit" : false,
+      "uri" : "spotify:track:6jmngk8Fwup05JZ6kgXEGX",
+      "album" : null,
+      "duration_ms" : 232906
+    }, {
+      "id" : "7vAXN57IQ0sj049wZGIboE",
+      "name" : "Rise Up",
+      "explicit" : false,
+      "uri" : "spotify:track:7vAXN57IQ0sj049wZGIboE",
+      "album" : null,
+      "duration_ms" : 231720
+    }, {
+      "id" : "54h8xHewdRPnYzmbEHBhOO",
+      "name" : "I’ll Make It Up To You",
+      "explicit" : false,
+      "uri" : "spotify:track:54h8xHewdRPnYzmbEHBhOO",
+      "album" : null,
+      "duration_ms" : 262600
+    }, {
+      "id" : "7nXk8UzwYn0bKNH8NVz6xO",
+      "name" : "Yesterday",
+      "explicit" : false,
+      "uri" : "spotify:track:7nXk8UzwYn0bKNH8NVz6xO",
+      "album" : null,
+      "duration_ms" : 205113
+    }, {
+      "id" : "6dSKDp21S6I5UOhDqjw4kB",
+      "name" : "Mouth Of The River",
+      "explicit" : false,
+      "uri" : "spotify:track:6dSKDp21S6I5UOhDqjw4kB",
+      "album" : null,
+      "duration_ms" : 221560
+    }, {
+      "id" : "0tKcYR2II1VCQWT79i5NrW",
+      "name" : "Thunder",
+      "explicit" : false,
+      "uri" : "spotify:track:0tKcYR2II1VCQWT79i5NrW",
+      "album" : null,
+      "duration_ms" : 187146
+    }, {
+      "id" : "6Q9ue1D2FU489FD4Uln3SX",
+      "name" : "Start Over",
+      "explicit" : false,
+      "uri" : "spotify:track:6Q9ue1D2FU489FD4Uln3SX",
+      "album" : null,
+      "duration_ms" : 186080
+    }, {
+      "id" : "5HvtbJxOYLSACcPuhf62wT",
+      "name" : "Dancing In The Dark",
+      "explicit" : false,
+      "uri" : "spotify:track:5HvtbJxOYLSACcPuhf62wT",
+      "album" : null,
+      "duration_ms" : 233933
+    } ],
+    "images" : [ {
+      "url" : null,
+      "height" : 640,
+      "width" : 640
+    }, {
+      "url" : "ab67616d00001e027956bd9a3d7a15e4c2e37cc6.jpeg",
+      "height" : 300,
+      "width" : 300
+    }, {
+      "url" : "ab67616d000048517956bd9a3d7a15e4c2e37cc6.jpeg",
+      "height" : 64,
+      "width" : 64
+    } ]
+  },
+  "2bnF93Rx87YqUBLSgjiMU0" : {
+    "artistId" : null,
+    "id" : "2bnF93Rx87YqUBLSgjiMU0",
+    "name" : "New Test Album",
+    "uri" : null,
+    "release_date" : null,
+    "total_tracks" : 0,
+    "tracks" : null,
+    "images" : null
+  }
+}

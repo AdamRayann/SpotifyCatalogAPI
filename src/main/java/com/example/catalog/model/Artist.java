@@ -1,5 +1,7 @@
 package com.example.catalog.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ArrayNode;
@@ -10,7 +12,9 @@ import java.awt.*;
 import java.io.File;
 import java.io.IOException;
 import java.util.List;
+import java.util.Map;
 
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Artist {
     private String id;
     private String name;
@@ -40,9 +44,15 @@ public class Artist {
         return followers;
     }
 
-    public void setFollowers(int followers) {
-        this.followers = followers;
-    }
+//    @JsonProperty("followers")
+//    public void setFollowers(Map<String, Object> followers) {
+//        if (followers != null && followers.get("total") != null) {
+//            this.followers = (int) followers.get("total");
+//        } else {
+//            this.followers = 0;
+//        }
+//    }
+
 
     public List<String> getGenres() {
         return genres;

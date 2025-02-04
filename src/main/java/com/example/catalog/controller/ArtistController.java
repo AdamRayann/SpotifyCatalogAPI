@@ -25,14 +25,28 @@ public class ArtistController {
         this.dataSourceService = dataSourceService;
     }
 
-    @GetMapping
+//    @GetMapping
+//    public ResponseEntity<List<Artist>> getAllArtists() {
+//        try {
+//            return ResponseEntity.ok(dataSourceService.getAllArtists());
+//        } catch (IOException e) {
+//            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
+//        }
+//    }
+
+    @RequestMapping
     public ResponseEntity<List<Artist>> getAllArtists() {
+        System.out.println("Starting getAllArtists...");
         try {
-            return ResponseEntity.ok(dataSourceService.getAllArtists());
-        } catch (IOException e) {
-            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
+            List<Artist> artists = dataSourceService.getAllArtists();
+            System.out.println("Fetched artists: " + artists);
+            return new ResponseEntity<>(artists, HttpStatus.OK);
+        } catch (Exception e) {
+            e.printStackTrace();
+            return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
+
 
     @PostMapping
     public ResponseEntity<Artist> createArtist(@RequestBody Artist artist) {

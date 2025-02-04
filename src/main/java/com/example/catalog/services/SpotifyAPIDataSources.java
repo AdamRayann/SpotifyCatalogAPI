@@ -6,6 +6,14 @@ import com.example.catalog.model.Song;
 import com.example.catalog.model.Track;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.apache.http.client.methods.CloseableHttpResponse;
+import org.apache.http.client.methods.HttpPost;
+import org.apache.http.entity.StringEntity;
+import org.apache.http.impl.client.CloseableHttpClient;
+import org.apache.http.impl.client.HttpClients;
+import org.apache.http.util.EntityUtils;
+import org.json.JSONObject;
+import org.springframework.stereotype.Service;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -13,15 +21,50 @@ import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
+import java.util.Base64;
 import java.util.List;
 
+@Service
 public class SpotifyAPIDataSources implements DataSourceService {
+    private static final String USER_ID = "38b99bfdafda489ba94b089b9101918d";
+    private static final String USER_SECRET = "1e921ef348304cf4b5bc0f2ce68b8dc3";
 
     private static final String BASE_URL = "https://api.spotify.com/v1";
-    private static final String ACCESS_TOKEN = "BQCWUmHhEZekB9VSa7EUixDrcu1RK2u_aw9DC1FbVYt4-xFMgqVtvtUVeGaaBOxYuMijoCZUtXsTcDK1XrTMIEmI0xs8DEuiTk6wZYWClq4y3M0eB7KOFQVcdws1uOR-mJjcPZ5QNis"; // Replace with your access token
+    private static final String ACCESS_TOKEN;
 
-    private JsonNode sendGetRequest(String endpoint) throws IOException {
+    static {
+        try {
+            ACCESS_TOKEN = generateAccessToken();
+            System.out.println(ACCESS_TOKEN);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public static String generateAccessToken() throws IOException {
+        String auth = USER_ID + ":" + USER_SECRET;
+        String encodedAuth = Base64.getEncoder().encodeToString(auth.getBytes(StandardCharsets.UTF_8));
+
+        CloseableHttpClient httpClient = HttpClients.createDefault();
+        HttpPost httpPost = new HttpPost("https://accounts.spotify.com/api/token");
+        httpPost.setHeader("Authorization", "Basic " + encodedAuth);
+        httpPost.setHeader("Content-Type", "application/x-www-form-urlencoded");
+
+        StringEntity params = new StringEntity("grant_type=client_credentials");
+        httpPost.setEntity(params);
+
+        try (CloseableHttpResponse response = httpClient.execute(httpPost)) {
+            String jsonResponse = EntityUtils.toString(response.getEntity());
+            JSONObject jsonObject = new JSONObject(jsonResponse);
+            return jsonObject.getString("access_token");
+        } finally {
+            httpClient.close();
+        }
+    }
+
+    public JsonNode sendGetRequest(String endpoint) throws IOException {
         URL url = new URL(BASE_URL + endpoint);
         HttpURLConnection conn = (HttpURLConnection) url.openConnection();
         conn.setRequestMethod("GET");
@@ -45,12 +88,24 @@ public class SpotifyAPIDataSources implements DataSourceService {
         return new ArrayList<>();
     }
 
+//    @Override
+//    public Artist getArtistById(String id) throws IOException {
+//        JsonNode artistNode = sendGetRequest("/artists/" + id);
+//        ObjectMapper mapper = new ObjectMapper();
+//        return mapper.treeToValue(artistNode, Artist.class);
+//    }
     @Override
     public Artist getArtistById(String id) throws IOException {
-        JsonNode artistNode = sendGetRequest("/artists/" + id);
-        ObjectMapper mapper = new ObjectMapper();
-        return mapper.treeToValue(artistNode, Artist.class);
+        try {
+            JsonNode artistNode = sendGetRequest("/artists/" + id);
+            ObjectMapper mapper = new ObjectMapper();
+            return mapper.treeToValue(artistNode, Artist.class);
+        } catch (IOException e) {
+            System.err.println("Error fetching artist: " + e.getMessage());
+            throw e;
+        }
     }
+
 
     @Override
     public List<Album> getAlbumsByArtist(String artistId) throws IOException {
@@ -74,16 +129,34 @@ public class SpotifyAPIDataSources implements DataSourceService {
         return songs;
     }
 
+//    @Override
+//    public List<Track> getTracksByAlbum(String albumId) throws IOException {
+//        JsonNode tracksNode = sendGetRequest("/albums/" + albumId + "/tracks");
+//        ObjectMapper mapper = new ObjectMapper();
+//        List<Track> tracks = new ArrayList<>();
+//        for (JsonNode node : tracksNode.get("items")) {
+//            tracks.add(mapper.treeToValue(node, Track.class));
+//        }
+//        return tracks;
+//    }
     @Override
     public List<Track> getTracksByAlbum(String albumId) throws IOException {
         JsonNode tracksNode = sendGetRequest("/albums/" + albumId + "/tracks");
         ObjectMapper mapper = new ObjectMapper();
         List<Track> tracks = new ArrayList<>();
-        for (JsonNode node : tracksNode.get("items")) {
-            tracks.add(mapper.treeToValue(node, Track.class));
+
+        JsonNode itemsNode = tracksNode.get("items");
+        if (itemsNode != null && itemsNode.isArray()) {
+            for (JsonNode node : itemsNode) {
+                tracks.add(mapper.treeToValue(node, Track.class));
+            }
+        } else {
+            System.err.println("Warning: 'items' node is missing or not an array for albumId: " + albumId);
         }
+
         return tracks;
     }
+
 
 
 

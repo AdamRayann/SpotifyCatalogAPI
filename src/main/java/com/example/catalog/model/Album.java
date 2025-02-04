@@ -27,6 +27,8 @@ public class Album {
     @JsonProperty("images")
     private List<Image> images; // Add this field to store images
 
+
+
     // Getters and Setters
 
     public String getArtistId() { return artistId; }

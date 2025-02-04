@@ -1,0 +1,683 @@
+{
+  "1Xyo4u8uXC1ZmMpatF05PJ" : {
+    "id" : "1Xyo4u8uXC1ZmMpatF05PJ",
+    "name" : "The Weeknd",
+    "followers" : 95105223,
+    "genres" : [ "canadian contemporary r&b", "canadian pop", "pop" ],
+    "images" : [ {
+      "url" : "ab6761610000e5eb9e528993a2820267b97f6aae.jpeg",
+      "height" : 640,
+      "width" : 640
+    }, {
+      "url" : "ab676161000051749e528993a2820267b97f6aae.jpeg",
+      "height" : 320,
+      "width" : 320
+    }, {
+      "url" : "ab6761610000f1789e528993a2820267b97f6aae.jpeg",
+      "height" : 160,
+      "width" : 160
+    } ],
+    "popularity" : 96,
+    "uri" : "spotify:artist:1Xyo4u8uXC1ZmMpatF05PJ"
+  },
+  "6eUKZXaKkcviH0Ku9w2n3V" : {
+    "id" : "6eUKZXaKkcviH0Ku9w2n3V",
+    "name" : "Ed Sheeran",
+    "followers" : 117447470,
+    "genres" : [ "pop", "singer-songwriter pop", "uk pop" ],
+    "images" : [ {
+      "url" : "ab6761610000e5eb784daff754ecfe0464ddbeb9.jpeg",
+      "height" : 640,
+      "width" : 640
+    }, {
+      "url" : "ab67616100005174784daff754ecfe0464ddbeb9.jpeg",
+      "height" : 320,
+      "width" : 320
+    }, {
+      "url" : "ab6761610000f178784daff754ecfe0464ddbeb9.jpeg",
+      "height" : 160,
+      "width" : 160
+    } ],
+    "popularity" : 89,
+    "uri" : "spotify:artist:6eUKZXaKkcviH0Ku9w2n3V"
+  },
+  "4GNC7GD6oZMSxPGyXy4MNB" : {
+    "id" : "4GNC7GD6oZMSxPGyXy4MNB",
+    "name" : "Lewis Capaldi",
+    "followers" : 12996051,
+    "genres" : [ "pop", "uk pop" ],
+    "images" : [ {
+      "url" : "ab6761610000e5ebea7538654040e553a7b0fc28.jpeg",
+      "height" : 640,
+      "width" : 640
+    }, {
+      "url" : "ab67616100005174ea7538654040e553a7b0fc28.jpeg",
+      "height" : 320,
+      "width" : 320
+    }, {
+      "url" : "ab6761610000f178ea7538654040e553a7b0fc28.jpeg",
+      "height" : 160,
+      "width" : 160
+    } ],
+    "popularity" : 81,
+    "uri" : "spotify:artist:4GNC7GD6oZMSxPGyXy4MNB"
+  },
+  "6KImCVD70vtIoJWnq6nGn3" : {
+    "id" : "6KImCVD70vtIoJWnq6nGn3",
+    "name" : "Harry Styles",
+    "followers" : 33160275,
+    "genres" : [ "pop" ],
+    "images" : [ {
+      "url" : "ab6761610000e5ebf7db7c8ede90a019c54590bb.jpeg",
+      "height" : 640,
+      "width" : 640
+    }, {
+      "url" : "ab67616100005174f7db7c8ede90a019c54590bb.jpeg",
+      "height" : 320,
+      "width" : 320
+    }, {
+      "url" : "ab6761610000f178f7db7c8ede90a019c54590bb.jpeg",
+      "height" : 160,
+      "width" : 160
+    } ],
+    "popularity" : 85,
+    "uri" : "spotify:artist:6KImCVD70vtIoJWnq6nGn3"
+  },
+  "246dkjvS1zLTtiykXe5h60" : {
+    "id" : "246dkjvS1zLTtiykXe5h60",
+    "name" : "Post Malone",
+    "followers" : 45880523,
+    "genres" : [ "dfw rap", "melodic rap", "pop", "rap" ],
+    "images" : [ {
+      "url" : "ab6761610000e5ebe17c0aa1714a03d62b5ce4e0.jpeg",
+      "height" : 640,
+      "width" : 640
+    }, {
+      "url" : "ab67616100005174e17c0aa1714a03d62b5ce4e0.jpeg",
+      "height" : 320,
+      "width" : 320
+    }, {
+      "url" : "ab6761610000f178e17c0aa1714a03d62b5ce4e0.jpeg",
+      "height" : 160,
+      "width" : 160
+    } ],
+    "popularity" : 91,
+    "uri" : "spotify:artist:246dkjvS1zLTtiykXe5h60"
+  },
+  "1zNqQNIdeOUZHb8zbZRFMX" : {
+    "id" : "1zNqQNIdeOUZHb8zbZRFMX",
+    "name" : "Swae Lee",
+    "followers" : 2425273,
+    "genres" : [ "melodic rap", "rap", "trap" ],
+    "images" : [ {
+      "url" : "ab6761610000e5ebf1be22786da29b0a1284c0a5.jpeg",
+      "height" : 640,
+      "width" : 640
+    }, {
+      "url" : "ab67616100005174f1be22786da29b0a1284c0a5.jpeg",
+      "height" : 320,
+      "width" : 320
+    }, {
+      "url" : "ab6761610000f178f1be22786da29b0a1284c0a5.jpeg",
+      "height" : 160,
+      "width" : 160
+    } ],
+    "popularity" : 81,
+    "uri" : "spotify:artist:1zNqQNIdeOUZHb8zbZRFMX"
+  },
+  "4tZwfgrHOc3mvqYlEYSvVi" : {
+    "id" : "4tZwfgrHOc3mvqYlEYSvVi",
+    "name" : "Daft Punk",
+    "followers" : 10281595,
+    "genres" : [ "electro", "filter house", "rock" ],
+    "images" : [ {
+      "url" : "ab6761610000e5eba7bfd7835b5c1eee0c95fa6e.jpeg",
+      "height" : 640,
+      "width" : 640
+    }, {
+      "url" : "ab67616100005174a7bfd7835b5c1eee0c95fa6e.jpeg",
+      "height" : 320,
+      "width" : 320
+    }, {
+      "url" : "ab6761610000f178a7bfd7835b5c1eee0c95fa6e.jpeg",
+      "height" : 160,
+      "width" : 160
+    } ],
+    "popularity" : 82,
+    "uri" : "spotify:artist:4tZwfgrHOc3mvqYlEYSvVi"
+  },
+  "3TVXtAsR1Inumwj472S9r4" : {
+    "id" : "3TVXtAsR1Inumwj472S9r4",
+    "name" : "Drake",
+    "followers" : 93698858,
+    "genres" : [ "canadian hip hop", "canadian pop", "hip hop", "pop rap", "rap" ],
+    "images" : [ {
+      "url" : "ab6761610000e5eb4293385d324db8558179afd9.jpeg",
+      "height" : 640,
+      "width" : 640
+    }, {
+      "url" : "ab676161000051744293385d324db8558179afd9.jpeg",
+      "height" : 320,
+      "width" : 320
+    }, {
+      "url" : "ab6761610000f1784293385d324db8558179afd9.jpeg",
+      "height" : 160,
+      "width" : 160
+    } ],
+    "popularity" : 96,
+    "uri" : "spotify:artist:3TVXtAsR1Inumwj472S9r4"
+  },
+  "3tVQdUvClmAT7URs9V3rsp" : {
+    "id" : "3tVQdUvClmAT7URs9V3rsp",
+    "name" : "Wizkid",
+    "followers" : 6480101,
+    "genres" : [ "afrobeats", "afropop", "azonto", "nigerian hip hop", "nigerian pop" ],
+    "images" : [ {
+      "url" : "ab6761610000e5ebfa2e36a9d14dc11f3233bb4a.jpeg",
+      "height" : 640,
+      "width" : 640
+    }, {
+      "url" : "ab67616100005174fa2e36a9d14dc11f3233bb4a.jpeg",
+      "height" : 320,
+      "width" : 320
+    }, {
+      "url" : "ab6761610000f178fa2e36a9d14dc11f3233bb4a.jpeg",
+      "height" : 160,
+      "width" : 160
+    } ],
+    "popularity" : 83,
+    "uri" : "spotify:artist:3tVQdUvClmAT7URs9V3rsp"
+  },
+  "77DAFfvm3O9zT5dIoG0eIO" : {
+    "id" : "77DAFfvm3O9zT5dIoG0eIO",
+    "name" : "Kyla",
+    "followers" : 35111,
+    "genres" : [ "uk funky" ],
+    "images" : [ {
+      "url" : "ab6761610000e5eb7af9765581856eae3a6a3f50.jpeg",
+      "height" : 640,
+      "width" : 640
+    }, {
+      "url" : "ab676161000051747af9765581856eae3a6a3f50.jpeg",
+      "height" : 320,
+      "width" : 320
+    }, {
+      "url" : "ab6761610000f1787af9765581856eae3a6a3f50.jpeg",
+      "height" : 160,
+      "width" : 160
+    } ],
+    "popularity" : 72,
+    "uri" : "spotify:artist:77DAFfvm3O9zT5dIoG0eIO"
+  },
+  "2tIP7SsRs7vjIcLrU85W8J" : {
+    "id" : "2tIP7SsRs7vjIcLrU85W8J",
+    "name" : "The Kid LAROI",
+    "followers" : 5869271,
+    "genres" : [ "australian hip hop" ],
+    "images" : [ {
+      "url" : "ab6761610000e5ebebf5c408f4d003817161e061.jpeg",
+      "height" : 640,
+      "width" : 640
+    }, {
+      "url" : "ab67616100005174ebf5c408f4d003817161e061.jpeg",
+      "height" : 320,
+      "width" : 320
+    }, {
+      "url" : "ab6761610000f178ebf5c408f4d003817161e061.jpeg",
+      "height" : 160,
+      "width" : 160
+    } ],
+    "popularity" : 85,
+    "uri" : "spotify:artist:2tIP7SsRs7vjIcLrU85W8J"
+  },
+  "1uNFoZAHBGtllmzznpCI3s" : {
+    "id" : "1uNFoZAHBGtllmzznpCI3s",
+    "name" : "Justin Bieber",
+    "followers" : 78976597,
+    "genres" : [ "canadian pop", "pop" ],
+    "images" : [ {
+      "url" : "ab6761610000e5eb8ae7f2aaa9817a704a87ea36.jpeg",
+      "height" : 640,
+      "width" : 640
+    }, {
+      "url" : "ab676161000051748ae7f2aaa9817a704a87ea36.jpeg",
+      "height" : 320,
+      "width" : 320
+    }, {
+      "url" : "ab6761610000f1788ae7f2aaa9817a704a87ea36.jpeg",
+      "height" : 160,
+      "width" : 160
+    } ],
+    "popularity" : 92,
+    "uri" : "spotify:artist:1uNFoZAHBGtllmzznpCI3s"
+  },
+  "77SW9BnxLY8rJ0RciFqkHh" : {
+    "id" : "77SW9BnxLY8rJ0RciFqkHh",
+    "name" : "The Neighbourhood",
+    "followers" : 18630312,
+    "genres" : [ "modern alternative rock", "modern rock", "pop" ],
+    "images" : [ {
+      "url" : "ab6761610000e5ebdf0b5ac84376a0a4b2166816.jpeg",
+      "height" : 640,
+      "width" : 640
+    }, {
+      "url" : "ab67616100005174df0b5ac84376a0a4b2166816.jpeg",
+      "height" : 320,
+      "width" : 320
+    }, {
+      "url" : "ab6761610000f178df0b5ac84376a0a4b2166816.jpeg",
+      "height" : 160,
+      "width" : 160
+    } ],
+    "popularity" : 86,
+    "uri" : "spotify:artist:77SW9BnxLY8rJ0RciFqkHh"
+  },
+  "53XhwfbYqKCa1cC15pYq2q" : {
+    "id" : "53XhwfbYqKCa1cC15pYq2q",
+    "name" : "Imagine Dragons",
+    "followers" : 55375846,
+    "genres" : [ "modern rock", "pop", "rock" ],
+    "images" : [ {
+      "url" : "ab6761610000e5ebab47d8dae2b24f5afe7f9d38.jpeg",
+      "height" : 640,
+      "width" : 640
+    }, {
+      "url" : "ab67616100005174ab47d8dae2b24f5afe7f9d38.jpeg",
+      "height" : 320,
+      "width" : 320
+    }, {
+      "url" : "ab6761610000f178ab47d8dae2b24f5afe7f9d38.jpeg",
+      "height" : 160,
+      "width" : 160
+    } ],
+    "popularity" : 89,
+    "uri" : "spotify:artist:53XhwfbYqKCa1cC15pYq2q"
+  },
+  "4yvcSjfu4PC0CYQyLy4wSq" : {
+    "id" : "4yvcSjfu4PC0CYQyLy4wSq",
+    "name" : "Glass Animals",
+    "followers" : 4339104,
+    "genres" : [ "gauze pop", "indietronica", "modern rock", "pov: indie", "shiver pop" ],
+    "images" : [ {
+      "url" : "ab6761610000e5ebeb2cc96b0ed023c5e3675b6f.jpeg",
+      "height" : 640,
+      "width" : 640
+    }, {
+      "url" : "ab67616100005174eb2cc96b0ed023c5e3675b6f.jpeg",
+      "height" : 320,
+      "width" : 320
+    }, {
+      "url" : "ab6761610000f178eb2cc96b0ed023c5e3675b6f.jpeg",
+      "height" : 160,
+      "width" : 160
+    } ],
+    "popularity" : 77,
+    "uri" : "spotify:artist:4yvcSjfu4PC0CYQyLy4wSq"
+  },
+  "2NjfBq1NflQcKSeiDooVjY" : {
+    "id" : "2NjfBq1NflQcKSeiDooVjY",
+    "name" : "Tones And I",
+    "followers" : 2957633,
+    "genres" : [ "australian pop" ],
+    "images" : [ {
+      "url" : "ab6761610000e5eb8bbb776368161a8258cbca3a.jpeg",
+      "height" : 640,
+      "width" : 640
+    }, {
+      "url" : "ab676161000051748bbb776368161a8258cbca3a.jpeg",
+      "height" : 320,
+      "width" : 320
+    }, {
+      "url" : "ab6761610000f1788bbb776368161a8258cbca3a.jpeg",
+      "height" : 160,
+      "width" : 160
+    } ],
+    "popularity" : 70,
+    "uri" : "spotify:artist:2NjfBq1NflQcKSeiDooVjY"
+  },
+  "1URnnhqYAYcrqrcwql10ft" : {
+    "id" : "1URnnhqYAYcrqrcwql10ft",
+    "name" : "21 Savage",
+    "followers" : 20750052,
+    "genres" : [ "atl hip hop", "hip hop", "rap" ],
+    "images" : [ {
+      "url" : "ab6761610000e5eb4f8f76117470957c0e81e5b2.jpeg",
+      "height" : 640,
+      "width" : 640
+    }, {
+      "url" : "ab676161000051744f8f76117470957c0e81e5b2.jpeg",
+      "height" : 320,
+      "width" : 320
+    }, {
+      "url" : "ab6761610000f1784f8f76117470957c0e81e5b2.jpeg",
+      "height" : 160,
+      "width" : 160
+    } ],
+    "popularity" : 89,
+    "uri" : "spotify:artist:1URnnhqYAYcrqrcwql10ft"
+  },
+  "0HYqyl7vfFMF4reDxFbmFe" : {
+    "id" : "0HYqyl7vfFMF4reDxFbmFe",
+    "name" : "Kalu",
+    "followers" : 8122,
+    "genres" : [ ],
+    "images" : [ {
+      "url" : "ab6761610000e5ebfa69792ede7e592a53f87b4d.jpeg",
+      "height" : 640,
+      "width" : 640
+    }, {
+      "url" : "ab67616100005174fa69792ede7e592a53f87b4d.jpeg",
+      "height" : 320,
+      "width" : 320
+    }, {
+      "url" : "ab6761610000f178fa69792ede7e592a53f87b4d.jpeg",
+      "height" : 160,
+      "width" : 160
+    } ],
+    "popularity" : 30,
+    "uri" : "spotify:artist:0HYqyl7vfFMF4reDxFbmFe"
+  },
+  "6qqNVTkY8uBg9cP3Jd7DAH" : {
+    "id" : "6qqNVTkY8uBg9cP3Jd7DAH",
+    "name" : "Billie Eilish",
+    "followers" : 102817139,
+    "genres" : [ "art pop", "pop" ],
+    "images" : [ {
+      "url" : "ab6761610000e5eb4a21b4760d2ecb7b0dcdc8da.jpeg",
+      "height" : 640,
+      "width" : 640
+    }, {
+      "url" : "ab676161000051744a21b4760d2ecb7b0dcdc8da.jpeg",
+      "height" : 320,
+      "width" : 320
+    }, {
+      "url" : "ab6761610000f1784a21b4760d2ecb7b0dcdc8da.jpeg",
+      "height" : 160,
+      "width" : 160
+    } ],
+    "popularity" : 96,
+    "uri" : "spotify:artist:6qqNVTkY8uBg9cP3Jd7DAH"
+  },
+  "6LuN9FCkKOj5PcnpouEgny" : {
+    "id" : "6LuN9FCkKOj5PcnpouEgny",
+    "name" : "Khalid",
+    "followers" : 16457071,
+    "genres" : [ "pop", "pop r&b" ],
+    "images" : [ {
+      "url" : "ab6761610000e5eb24ff450c42d4e36fb34a7631.jpeg",
+      "height" : 640,
+      "width" : 640
+    }, {
+      "url" : "ab6761610000517424ff450c42d4e36fb34a7631.jpeg",
+      "height" : 320,
+      "width" : 320
+    }, {
+      "url" : "ab6761610000f17824ff450c42d4e36fb34a7631.jpeg",
+      "height" : 160,
+      "width" : 160
+    } ],
+    "popularity" : 85,
+    "uri" : "spotify:artist:6LuN9FCkKOj5PcnpouEgny"
+  },
+  "4IWBUUAFIplrNtaOHcJPRM" : {
+    "id" : "4IWBUUAFIplrNtaOHcJPRM",
+    "name" : "James Arthur",
+    "followers" : 19066556,
+    "genres" : [ "pop", "talent show", "uk pop" ],
+    "images" : [ {
+      "url" : "ab6761610000e5eb2a0c6d0343c82be9dd6fce0b.jpeg",
+      "height" : 640,
+      "width" : 640
+    }, {
+      "url" : "ab676161000051742a0c6d0343c82be9dd6fce0b.jpeg",
+      "height" : 320,
+      "width" : 320
+    }, {
+      "url" : "ab6761610000f1782a0c6d0343c82be9dd6fce0b.jpeg",
+      "height" : 160,
+      "width" : 160
+    } ],
+    "popularity" : 82,
+    "uri" : "spotify:artist:4IWBUUAFIplrNtaOHcJPRM"
+  },
+  "2acqLrAZ1lspWmbpQzdiGE" : {
+    "id" : "2acqLrAZ1lspWmbpQzdiGE",
+    "name" : "The Hourglass Effect",
+    "followers" : 1093,
+    "genres" : [ ],
+    "images" : [ {
+      "url" : "ab6761610000e5eb030ddee103e090a198f2c871.jpeg",
+      "height" : 640,
+      "width" : 640
+    }, {
+      "url" : "ab67616100005174030ddee103e090a198f2c871.jpeg",
+      "height" : 320,
+      "width" : 320
+    }, {
+      "url" : "ab6761610000f178030ddee103e090a198f2c871.jpeg",
+      "height" : 160,
+      "width" : 160
+    } ],
+    "popularity" : 37,
+    "uri" : "spotify:artist:2acqLrAZ1lspWmbpQzdiGE"
+  },
+  "69GGBxA162lTqCwzJG5jLp" : {
+    "id" : "69GGBxA162lTqCwzJG5jLp",
+    "name" : "The Chainsmokers",
+    "followers" : 20652821,
+    "genres" : [ "pop" ],
+    "images" : [ {
+      "url" : "ab6761610000e5eb44434ab91c37f5407f8e83b6.jpeg",
+      "height" : 640,
+      "width" : 640
+    }, {
+      "url" : "ab6761610000517444434ab91c37f5407f8e83b6.jpeg",
+      "height" : 320,
+      "width" : 320
+    }, {
+      "url" : "ab6761610000f17844434ab91c37f5407f8e83b6.jpeg",
+      "height" : 160,
+      "width" : 160
+    } ],
+    "popularity" : 83,
+    "uri" : "spotify:artist:69GGBxA162lTqCwzJG5jLp"
+  },
+  "26VFTg2z8YR0cCuwLzESi2" : {
+    "id" : "26VFTg2z8YR0cCuwLzESi2",
+    "name" : "Halsey",
+    "followers" : 21771012,
+    "genres" : [ "electropop", "etherpop", "indie poptimism", "pop" ],
+    "images" : [ {
+      "url" : "ab6761610000e5eb7f17140567e7df5799d5c3a9.jpeg",
+      "height" : 640,
+      "width" : 640
+    }, {
+      "url" : "ab676161000051747f17140567e7df5799d5c3a9.jpeg",
+      "height" : 320,
+      "width" : 320
+    }, {
+      "url" : "ab6761610000f1787f17140567e7df5799d5c3a9.jpeg",
+      "height" : 160,
+      "width" : 160
+    } ],
+    "popularity" : 83,
+    "uri" : "spotify:artist:26VFTg2z8YR0cCuwLzESi2"
+  },
+  "7n2wHs1TKAczGzO7Dd2rGr" : {
+    "id" : "7n2wHs1TKAczGzO7Dd2rGr",
+    "name" : "Shawn Mendes",
+    "followers" : 43764454,
+    "genres" : [ "canadian pop", "pop", "viral pop" ],
+    "images" : [ {
+      "url" : "ab6761610000e5eb58b4b9419486550f6fda0535.jpeg",
+      "height" : 640,
+      "width" : 640
+    }, {
+      "url" : "ab6761610000517458b4b9419486550f6fda0535.jpeg",
+      "height" : 320,
+      "width" : 320
+    }, {
+      "url" : "ab6761610000f17858b4b9419486550f6fda0535.jpeg",
+      "height" : 160,
+      "width" : 160
+    } ],
+    "popularity" : 86,
+    "uri" : "spotify:artist:7n2wHs1TKAczGzO7Dd2rGr"
+  },
+  "4nDoRrQiYLoBzwC5BhVJzF" : {
+    "id" : "4nDoRrQiYLoBzwC5BhVJzF",
+    "name" : "Camila Cabello",
+    "followers" : 34124202,
+    "genres" : [ "dance pop", "pop" ],
+    "images" : [ {
+      "url" : "ab6761610000e5eb76470faf6330235edbcb90a9.jpeg",
+      "height" : 640,
+      "width" : 640
+    }, {
+      "url" : "ab6761610000517476470faf6330235edbcb90a9.jpeg",
+      "height" : 320,
+      "width" : 320
+    }, {
+      "url" : "ab6761610000f17876470faf6330235edbcb90a9.jpeg",
+      "height" : 160,
+      "width" : 160
+    } ],
+    "popularity" : 83,
+    "uri" : "spotify:artist:4nDoRrQiYLoBzwC5BhVJzF"
+  },
+  "4gzpq5DPGxSnKTe4SA8HAU" : {
+    "id" : "4gzpq5DPGxSnKTe4SA8HAU",
+    "name" : "Coldplay",
+    "followers" : 54915879,
+    "genres" : [ "permanent wave", "pop" ],
+    "images" : [ {
+      "url" : "ab6761610000e5eb1ba8fc5f5c73e7e9313cc6eb.jpeg",
+      "height" : 640,
+      "width" : 640
+    }, {
+      "url" : "ab676161000051741ba8fc5f5c73e7e9313cc6eb.jpeg",
+      "height" : 320,
+      "width" : 320
+    }, {
+      "url" : "ab6761610000f1781ba8fc5f5c73e7e9313cc6eb.jpeg",
+      "height" : 160,
+      "width" : 160
+    } ],
+    "popularity" : 91,
+    "uri" : "spotify:artist:4gzpq5DPGxSnKTe4SA8HAU"
+  },
+  "5Dsd7jTkXFpmNtZTWuBMDh" : {
+    "id" : "5Dsd7jTkXFpmNtZTWuBMDh",
+    "name" : "leoleo",
+    "followers" : 8303,
+    "genres" : [ ],
+    "images" : [ {
+      "url" : "ab6761610000e5eb042f47571802869b5cc77ec1.jpeg",
+      "height" : 640,
+      "width" : 640
+    }, {
+      "url" : "ab67616100005174042f47571802869b5cc77ec1.jpeg",
+      "height" : 320,
+      "width" : 320
+    }, {
+      "url" : "ab6761610000f178042f47571802869b5cc77ec1.jpeg",
+      "height" : 160,
+      "width" : 160
+    } ],
+    "popularity" : 37,
+    "uri" : "spotify:artist:5Dsd7jTkXFpmNtZTWuBMDh"
+  },
+  "10exVja0key0uqUkk6LJRT" : {
+    "id" : "10exVja0key0uqUkk6LJRT",
+    "name" : "Vance Joy",
+    "followers" : 3214396,
+    "genres" : [ "folk-pop", "modern rock" ],
+    "images" : [ {
+      "url" : "ab6761610000e5eb8f074ec8c25406680bf26422.jpeg",
+      "height" : 640,
+      "width" : 640
+    }, {
+      "url" : "ab676161000051748f074ec8c25406680bf26422.jpeg",
+      "height" : 320,
+      "width" : 320
+    }, {
+      "url" : "ab6761610000f1788f074ec8c25406680bf26422.jpeg",
+      "height" : 160,
+      "width" : 160
+    } ],
+    "popularity" : 78,
+    "uri" : "spotify:artist:10exVja0key0uqUkk6LJRT"
+  },
+  "6M2wZ9GZgrQXHCFfjv46we" : {
+    "id" : "6M2wZ9GZgrQXHCFfjv46we",
+    "name" : "Dua Lipa",
+    "followers" : 45069382,
+    "genres" : [ "dance pop", "pop", "uk pop" ],
+    "images" : [ {
+      "url" : "ab6761610000e5eb0c68f6c95232e716f0abee8d.jpeg",
+      "height" : 640,
+      "width" : 640
+    }, {
+      "url" : "ab676161000051740c68f6c95232e716f0abee8d.jpeg",
+      "height" : 320,
+      "width" : 320
+    }, {
+      "url" : "ab6761610000f1780c68f6c95232e716f0abee8d.jpeg",
+      "height" : 160,
+      "width" : 160
+    } ],
+    "popularity" : 88,
+    "uri" : "spotify:artist:6M2wZ9GZgrQXHCFfjv46we"
+  },
+  "2FXC3k01G6Gw61bmprjgqS" : {
+    "id" : "2FXC3k01G6Gw61bmprjgqS",
+    "name" : "Hozier",
+    "followers" : 8091392,
+    "genres" : [ "irish singer-songwriter", "modern rock", "pop", "pov: indie" ],
+    "images" : [ {
+      "url" : "ab6761610000e5ebad85a585103dfc2f3439119a.jpeg",
+      "height" : 640,
+      "width" : 640
+    }, {
+      "url" : "ab67616100005174ad85a585103dfc2f3439119a.jpeg",
+      "height" : 320,
+      "width" : 320
+    }, {
+      "url" : "ab6761610000f178ad85a585103dfc2f3439119a.jpeg",
+      "height" : 160,
+      "width" : 160
+    } ],
+    "popularity" : 86,
+    "uri" : "spotify:artist:2FXC3k01G6Gw61bmprjgqS"
+  },
+  "2txHhyCwHjUEpJjWrEyqyX" : {
+    "id" : "2txHhyCwHjUEpJjWrEyqyX",
+    "name" : "Tom Odell",
+    "followers" : 4043108,
+    "genres" : [ "chill pop" ],
+    "images" : [ {
+      "url" : "ab6761610000e5eb532e8dd8ba9fbd5e78105a78.jpeg",
+      "height" : 640,
+      "width" : 640
+    }, {
+      "url" : "ab67616100005174532e8dd8ba9fbd5e78105a78.jpeg",
+      "height" : 320,
+      "width" : 320
+    }, {
+      "url" : "ab6761610000f178532e8dd8ba9fbd5e78105a78.jpeg",
+      "height" : 160,
+      "width" : 160
+    } ],
+    "popularity" : 80,
+    "uri" : "spotify:artist:2txHhyCwHjUEpJjWrEyqyX"
+  },
+  "2bnF93Rx87YqUBLSgjiMU0" : {
+    "id" : "2bnF93Rx87YqUBLSgjiMU0",
+    "name" : "New Test Artist",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : null
+  }
+}

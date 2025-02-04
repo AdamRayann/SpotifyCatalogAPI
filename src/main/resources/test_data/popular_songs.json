@@ -1,0 +1,1785 @@
+[ {
+  "artistId" : "1Xyo4u8uXC1ZmMpatF05PJ",
+  "id" : "0VjIjW4GlUZAMYd2vXMi3b",
+  "name" : "Blinding Lights",
+  "duration_ms" : 200040,
+  "popularity" : 87,
+  "uri" : "spotify:track:0VjIjW4GlUZAMYd2vXMi3b",
+  "artists" : [ {
+    "id" : "1Xyo4u8uXC1ZmMpatF05PJ",
+    "name" : "The Weeknd",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:1Xyo4u8uXC1ZmMpatF05PJ"
+  } ]
+}, {
+  "artistId" : "6eUKZXaKkcviH0Ku9w2n3V",
+  "id" : "7qiZfU4dY1lWllzX7mPBI3",
+  "name" : "Shape of You",
+  "duration_ms" : 233712,
+  "popularity" : 86,
+  "uri" : "spotify:track:7qiZfU4dY1lWllzX7mPBI3",
+  "artists" : [ {
+    "id" : "6eUKZXaKkcviH0Ku9w2n3V",
+    "name" : "Ed Sheeran",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:6eUKZXaKkcviH0Ku9w2n3V"
+  } ]
+}, {
+  "artistId" : "4GNC7GD6oZMSxPGyXy4MNB",
+  "id" : "7qEHsqek33rTcFNT9PFqLf",
+  "name" : "Someone You Loved",
+  "duration_ms" : 182160,
+  "popularity" : 86,
+  "uri" : "spotify:track:7qEHsqek33rTcFNT9PFqLf",
+  "artists" : [ {
+    "id" : "4GNC7GD6oZMSxPGyXy4MNB",
+    "name" : "Lewis Capaldi",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:4GNC7GD6oZMSxPGyXy4MNB"
+  } ]
+}, {
+  "artistId" : "1Xyo4u8uXC1ZmMpatF05PJ",
+  "id" : "5aAx2yezTd8zXrkmtKl66Z",
+  "name" : "Starboy",
+  "duration_ms" : 230453,
+  "popularity" : 2,
+  "uri" : "spotify:track:5aAx2yezTd8zXrkmtKl66Z",
+  "artists" : [ {
+    "id" : "1Xyo4u8uXC1ZmMpatF05PJ",
+    "name" : "The Weeknd",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:1Xyo4u8uXC1ZmMpatF05PJ"
+  }, {
+    "id" : "4tZwfgrHOc3mvqYlEYSvVi",
+    "name" : "Daft Punk",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:4tZwfgrHOc3mvqYlEYSvVi"
+  } ]
+}, {
+  "artistId" : "3TVXtAsR1Inumwj472S9r4",
+  "id" : "1xznGGDReH1oQq0xzbwXa3",
+  "name" : "One Dance",
+  "duration_ms" : 173986,
+  "popularity" : 2,
+  "uri" : "spotify:track:1xznGGDReH1oQq0xzbwXa3",
+  "artists" : [ {
+    "id" : "3TVXtAsR1Inumwj472S9r4",
+    "name" : "Drake",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:3TVXtAsR1Inumwj472S9r4"
+  }, {
+    "id" : "3tVQdUvClmAT7URs9V3rsp",
+    "name" : "Wizkid",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:3tVQdUvClmAT7URs9V3rsp"
+  }, {
+    "id" : "77DAFfvm3O9zT5dIoG0eIO",
+    "name" : "Kyla",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:77DAFfvm3O9zT5dIoG0eIO"
+  } ]
+}, {
+  "artistId" : "2tIP7SsRs7vjIcLrU85W8J",
+  "id" : "5PjdY0CKGZdEuoNab3yDmX",
+  "name" : "STAY (with Justin Bieber)",
+  "duration_ms" : 141805,
+  "popularity" : 16,
+  "uri" : "spotify:track:5PjdY0CKGZdEuoNab3yDmX",
+  "artists" : [ {
+    "id" : "2tIP7SsRs7vjIcLrU85W8J",
+    "name" : "The Kid LAROI",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:2tIP7SsRs7vjIcLrU85W8J"
+  }, {
+    "id" : "1uNFoZAHBGtllmzznpCI3s",
+    "name" : "Justin Bieber",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:1uNFoZAHBGtllmzznpCI3s"
+  } ]
+}, {
+  "artistId" : "77SW9BnxLY8rJ0RciFqkHh",
+  "id" : "2QjOHCTQ1Jl3zawyYOpxh6",
+  "name" : "Sweater Weather",
+  "duration_ms" : 240400,
+  "popularity" : 90,
+  "uri" : "spotify:track:2QjOHCTQ1Jl3zawyYOpxh6",
+  "artists" : [ {
+    "id" : "77SW9BnxLY8rJ0RciFqkHh",
+    "name" : "The Neighbourhood",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:77SW9BnxLY8rJ0RciFqkHh"
+  } ]
+}, {
+  "artistId" : "53XhwfbYqKCa1cC15pYq2q",
+  "id" : "0CcQNd8CINkwQfe1RDtGV6",
+  "name" : "Believer",
+  "duration_ms" : 204346,
+  "popularity" : 2,
+  "uri" : "spotify:track:0CcQNd8CINkwQfe1RDtGV6",
+  "artists" : [ {
+    "id" : "53XhwfbYqKCa1cC15pYq2q",
+    "name" : "Imagine Dragons",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:53XhwfbYqKCa1cC15pYq2q"
+  } ]
+}, {
+  "artistId" : "4yvcSjfu4PC0CYQyLy4wSq",
+  "id" : "6CDzDgIUqeDY5g8ujExx2f",
+  "name" : "Heat Waves",
+  "duration_ms" : 238805,
+  "popularity" : 7,
+  "uri" : "spotify:track:6CDzDgIUqeDY5g8ujExx2f",
+  "artists" : [ {
+    "id" : "4yvcSjfu4PC0CYQyLy4wSq",
+    "name" : "Glass Animals",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:4yvcSjfu4PC0CYQyLy4wSq"
+  } ]
+}, {
+  "artistId" : "2NjfBq1NflQcKSeiDooVjY",
+  "id" : "2XU0oxnq2qxCpomAAuJY8K",
+  "name" : "Dance Monkey",
+  "duration_ms" : 209438,
+  "popularity" : 72,
+  "uri" : "spotify:track:2XU0oxnq2qxCpomAAuJY8K",
+  "artists" : [ {
+    "id" : "2NjfBq1NflQcKSeiDooVjY",
+    "name" : "Tones And I",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:2NjfBq1NflQcKSeiDooVjY"
+  } ]
+}, {
+  "artistId" : "6eUKZXaKkcviH0Ku9w2n3V",
+  "id" : "0tgVpDi06FyKpA1z0VMD4v",
+  "name" : "Perfect",
+  "duration_ms" : 263400,
+  "popularity" : 86,
+  "uri" : "spotify:track:0tgVpDi06FyKpA1z0VMD4v",
+  "artists" : [ {
+    "id" : "6eUKZXaKkcviH0Ku9w2n3V",
+    "name" : "Ed Sheeran",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:6eUKZXaKkcviH0Ku9w2n3V"
+  } ]
+}, {
+  "artistId" : "246dkjvS1zLTtiykXe5h60",
+  "id" : "7wGoVu4Dady5GV0Sv4UIsx",
+  "name" : "rockstar",
+  "duration_ms" : 218320,
+  "popularity" : 10,
+  "uri" : "spotify:track:7wGoVu4Dady5GV0Sv4UIsx",
+  "artists" : [ {
+    "id" : "246dkjvS1zLTtiykXe5h60",
+    "name" : "Post Malone",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:246dkjvS1zLTtiykXe5h60"
+  }, {
+    "id" : "1URnnhqYAYcrqrcwql10ft",
+    "name" : "21 Savage",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:1URnnhqYAYcrqrcwql10ft"
+  } ]
+}, {
+  "artistId" : "0HYqyl7vfFMF4reDxFbmFe",
+  "id" : "5G4uNOOs5ZyVicj6vHl6KY",
+  "name" : "Tunnel Of Love",
+  "duration_ms" : 142409,
+  "popularity" : 35,
+  "uri" : "spotify:track:5G4uNOOs5ZyVicj6vHl6KY",
+  "artists" : [ {
+    "id" : "0HYqyl7vfFMF4reDxFbmFe",
+    "name" : "Kalu",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:0HYqyl7vfFMF4reDxFbmFe"
+  } ]
+}, {
+  "artistId" : "6qqNVTkY8uBg9cP3Jd7DAH",
+  "id" : "0u2P5u6lvoDfwTYjAADbn4",
+  "name" : "lovely (with Khalid)",
+  "duration_ms" : 200185,
+  "popularity" : 86,
+  "uri" : "spotify:track:0u2P5u6lvoDfwTYjAADbn4",
+  "artists" : [ {
+    "id" : "6qqNVTkY8uBg9cP3Jd7DAH",
+    "name" : "Billie Eilish",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:6qqNVTkY8uBg9cP3Jd7DAH"
+  }, {
+    "id" : "6LuN9FCkKOj5PcnpouEgny",
+    "name" : "Khalid",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:6LuN9FCkKOj5PcnpouEgny"
+  } ]
+}, {
+  "artistId" : "4IWBUUAFIplrNtaOHcJPRM",
+  "id" : "5uCax9HTNlzGybIStD3vDh",
+  "name" : "Say You Won't Let Go",
+  "duration_ms" : 211466,
+  "popularity" : 85,
+  "uri" : "spotify:track:5uCax9HTNlzGybIStD3vDh",
+  "artists" : [ {
+    "id" : "4IWBUUAFIplrNtaOHcJPRM",
+    "name" : "James Arthur",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:4IWBUUAFIplrNtaOHcJPRM"
+  } ]
+}, {
+  "artistId" : "2acqLrAZ1lspWmbpQzdiGE",
+  "id" : "2NQzj8czPzUw9ufCOvAT8W",
+  "name" : "Sunlight",
+  "duration_ms" : 266358,
+  "popularity" : 47,
+  "uri" : "spotify:track:2NQzj8czPzUw9ufCOvAT8W",
+  "artists" : [ {
+    "id" : "2acqLrAZ1lspWmbpQzdiGE",
+    "name" : "The Hourglass Effect",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:2acqLrAZ1lspWmbpQzdiGE"
+  } ]
+}, {
+  "artistId" : "69GGBxA162lTqCwzJG5jLp",
+  "id" : "7BKLCZ1jbUBVqRi2FVlTVw",
+  "name" : "Closer",
+  "duration_ms" : 244960,
+  "popularity" : 84,
+  "uri" : "spotify:track:7BKLCZ1jbUBVqRi2FVlTVw",
+  "artists" : [ {
+    "id" : "69GGBxA162lTqCwzJG5jLp",
+    "name" : "The Chainsmokers",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:69GGBxA162lTqCwzJG5jLp"
+  }, {
+    "id" : "26VFTg2z8YR0cCuwLzESi2",
+    "name" : "Halsey",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:26VFTg2z8YR0cCuwLzESi2"
+  } ]
+}, {
+  "artistId" : "6KImCVD70vtIoJWnq6nGn3",
+  "id" : "6UelLqGlWMcVH1E5c4H7lY",
+  "name" : "Watermelon Sugar",
+  "duration_ms" : 174000,
+  "popularity" : 82,
+  "uri" : "spotify:track:6UelLqGlWMcVH1E5c4H7lY",
+  "artists" : [ {
+    "id" : "6KImCVD70vtIoJWnq6nGn3",
+    "name" : "Harry Styles",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:6KImCVD70vtIoJWnq6nGn3"
+  } ]
+}, {
+  "artistId" : "7n2wHs1TKAczGzO7Dd2rGr",
+  "id" : "0TK2YIli7K1leLovkQiNik",
+  "name" : "Señorita",
+  "duration_ms" : 190960,
+  "popularity" : 75,
+  "uri" : "spotify:track:0TK2YIli7K1leLovkQiNik",
+  "artists" : [ {
+    "id" : "7n2wHs1TKAczGzO7Dd2rGr",
+    "name" : "Shawn Mendes",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:7n2wHs1TKAczGzO7Dd2rGr"
+  }, {
+    "id" : "4nDoRrQiYLoBzwC5BhVJzF",
+    "name" : "Camila Cabello",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:4nDoRrQiYLoBzwC5BhVJzF"
+  } ]
+}, {
+  "artistId" : "69GGBxA162lTqCwzJG5jLp",
+  "id" : "6RUKPb4LETWmmr3iAEQktW",
+  "name" : "Something Just Like This",
+  "duration_ms" : 247160,
+  "popularity" : 86,
+  "uri" : "spotify:track:6RUKPb4LETWmmr3iAEQktW",
+  "artists" : [ {
+    "id" : "69GGBxA162lTqCwzJG5jLp",
+    "name" : "The Chainsmokers",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:69GGBxA162lTqCwzJG5jLp"
+  }, {
+    "id" : "4gzpq5DPGxSnKTe4SA8HAU",
+    "name" : "Coldplay",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:4gzpq5DPGxSnKTe4SA8HAU"
+  } ]
+}, {
+  "artistId" : "5Dsd7jTkXFpmNtZTWuBMDh",
+  "id" : "6EIsrLeTHnX1fNU2Ci36RL",
+  "name" : "where do i go?",
+  "duration_ms" : 171374,
+  "popularity" : 41,
+  "uri" : "spotify:track:6EIsrLeTHnX1fNU2Ci36RL",
+  "artists" : [ {
+    "id" : "5Dsd7jTkXFpmNtZTWuBMDh",
+    "name" : "leoleo",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:5Dsd7jTkXFpmNtZTWuBMDh"
+  } ]
+}, {
+  "artistId" : "10exVja0key0uqUkk6LJRT",
+  "id" : "7yq4Qj7cqayVTp3FF9CWbm",
+  "name" : "Riptide",
+  "duration_ms" : 204280,
+  "popularity" : 78,
+  "uri" : "spotify:track:7yq4Qj7cqayVTp3FF9CWbm",
+  "artists" : [ {
+    "id" : "10exVja0key0uqUkk6LJRT",
+    "name" : "Vance Joy",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:10exVja0key0uqUkk6LJRT"
+  } ]
+}, {
+  "artistId" : "6M2wZ9GZgrQXHCFfjv46we",
+  "id" : "3PfIrDoz19wz7qK7tYeu62",
+  "name" : "Don't Start Now",
+  "duration_ms" : 183290,
+  "popularity" : 80,
+  "uri" : "spotify:track:3PfIrDoz19wz7qK7tYeu62",
+  "artists" : [ {
+    "id" : "6M2wZ9GZgrQXHCFfjv46we",
+    "name" : "Dua Lipa",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:6M2wZ9GZgrQXHCFfjv46we"
+  } ]
+}, {
+  "artistId" : "2FXC3k01G6Gw61bmprjgqS",
+  "id" : "2EiGECydkS2M8OCcRHQZhT",
+  "name" : "Take Me To Church",
+  "duration_ms" : 241688,
+  "popularity" : 1,
+  "uri" : "spotify:track:2EiGECydkS2M8OCcRHQZhT",
+  "artists" : [ {
+    "id" : "2FXC3k01G6Gw61bmprjgqS",
+    "name" : "Hozier",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:2FXC3k01G6Gw61bmprjgqS"
+  } ]
+}, {
+  "artistId" : "2txHhyCwHjUEpJjWrEyqyX",
+  "id" : "3JvKfv6T31zO0ini8iNItO",
+  "name" : "Another Love",
+  "duration_ms" : 244360,
+  "popularity" : 86,
+  "uri" : "spotify:track:3JvKfv6T31zO0ini8iNItO",
+  "artists" : [ {
+    "id" : "2txHhyCwHjUEpJjWrEyqyX",
+    "name" : "Tom Odell",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:2txHhyCwHjUEpJjWrEyqyX"
+  } ]
+}, {
+  "artistId" : "5Pwc4xIPtQLFEnJriah9YJ",
+  "id" : "5edBgVtRD0fvWk140Sl21T",
+  "name" : "Counting Stars",
+  "duration_ms" : 257266,
+  "popularity" : 2,
+  "uri" : "spotify:track:5edBgVtRD0fvWk140Sl21T",
+  "artists" : [ {
+    "id" : "5Pwc4xIPtQLFEnJriah9YJ",
+    "name" : "OneRepublic",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:5Pwc4xIPtQLFEnJriah9YJ"
+  } ]
+}, {
+  "artistId" : "7htnZJTm5SZsmKRrnOL5mk",
+  "id" : "1Bk4mFK1shZUoHfYJMwqWp",
+  "name" : "Wavy",
+  "duration_ms" : 173666,
+  "popularity" : 50,
+  "uri" : "spotify:track:1Bk4mFK1shZUoHfYJMwqWp",
+  "artists" : [ {
+    "id" : "7htnZJTm5SZsmKRrnOL5mk",
+    "name" : "Yerin",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:7htnZJTm5SZsmKRrnOL5mk"
+  } ]
+}, {
+  "artistId" : "6eUKZXaKkcviH0Ku9w2n3V",
+  "id" : "1HNkqx9Ahdgi1Ixy2xkKkL",
+  "name" : "Photograph",
+  "duration_ms" : 258986,
+  "popularity" : 84,
+  "uri" : "spotify:track:1HNkqx9Ahdgi1Ixy2xkKkL",
+  "artists" : [ {
+    "id" : "6eUKZXaKkcviH0Ku9w2n3V",
+    "name" : "Ed Sheeran",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:6eUKZXaKkcviH0Ku9w2n3V"
+  } ]
+}, {
+  "artistId" : "6Jsh7nTKdhKsVHP5zHooI0",
+  "id" : "6krwVrqihThMtvID5LlaYj",
+  "name" : "Like Em Country",
+  "duration_ms" : 179984,
+  "popularity" : 41,
+  "uri" : "spotify:track:6krwVrqihThMtvID5LlaYj",
+  "artists" : [ {
+    "id" : "6Jsh7nTKdhKsVHP5zHooI0",
+    "name" : "Cwby",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:6Jsh7nTKdhKsVHP5zHooI0"
+  } ]
+}, {
+  "artistId" : "4MCBfE4596Uoi2O4DtmEMz",
+  "id" : "285pBltuF7vW8TeWk8hdRR",
+  "name" : "Lucid Dreams",
+  "duration_ms" : 239835,
+  "popularity" : 84,
+  "uri" : "spotify:track:285pBltuF7vW8TeWk8hdRR",
+  "artists" : [ {
+    "id" : "4MCBfE4596Uoi2O4DtmEMz",
+    "name" : "Juice WRLD",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:4MCBfE4596Uoi2O4DtmEMz"
+  } ]
+}, {
+  "artistId" : "246dkjvS1zLTtiykXe5h60",
+  "id" : "21jGcNKet2qwijlDFuPiPb",
+  "name" : "Circles",
+  "duration_ms" : 215280,
+  "popularity" : 84,
+  "uri" : "spotify:track:21jGcNKet2qwijlDFuPiPb",
+  "artists" : [ {
+    "id" : "246dkjvS1zLTtiykXe5h60",
+    "name" : "Post Malone",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:246dkjvS1zLTtiykXe5h60"
+  } ]
+}, {
+  "artistId" : "4ynlh5jcBUkhAvoBeICuDG",
+  "id" : "2snvV5XQw30jstCYlr1W5o",
+  "name" : "Cool Girls Party",
+  "duration_ms" : 183372,
+  "popularity" : 41,
+  "uri" : "spotify:track:2snvV5XQw30jstCYlr1W5o",
+  "artists" : [ {
+    "id" : "4ynlh5jcBUkhAvoBeICuDG",
+    "name" : "Melanie Herrera",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:4ynlh5jcBUkhAvoBeICuDG"
+  } ]
+}, {
+  "artistId" : "3TVXtAsR1Inumwj472S9r4",
+  "id" : "6T8cJz5lAqGer9GUHGyelE",
+  "name" : "God's Plan",
+  "duration_ms" : 198960,
+  "popularity" : 1,
+  "uri" : "spotify:track:6T8cJz5lAqGer9GUHGyelE",
+  "artists" : [ {
+    "id" : "3TVXtAsR1Inumwj472S9r4",
+    "name" : "Drake",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:3TVXtAsR1Inumwj472S9r4"
+  } ]
+}, {
+  "artistId" : "1dfeR4HaWDbWqFHLkxsg1d",
+  "id" : "4u7EnebtmKWzUH433cf5Qv",
+  "name" : "Bohemian Rhapsody - Remastered 2011",
+  "duration_ms" : 354320,
+  "popularity" : 78,
+  "uri" : "spotify:track:4u7EnebtmKWzUH433cf5Qv",
+  "artists" : [ {
+    "id" : "1dfeR4HaWDbWqFHLkxsg1d",
+    "name" : "Queen",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:1dfeR4HaWDbWqFHLkxsg1d"
+  } ]
+}, {
+  "artistId" : "6qqNVTkY8uBg9cP3Jd7DAH",
+  "id" : "2Fxmhks0bxGSBdJ92vM42m",
+  "name" : "bad guy",
+  "duration_ms" : 194087,
+  "popularity" : 81,
+  "uri" : "spotify:track:2Fxmhks0bxGSBdJ92vM42m",
+  "artists" : [ {
+    "id" : "6qqNVTkY8uBg9cP3Jd7DAH",
+    "name" : "Billie Eilish",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:6qqNVTkY8uBg9cP3Jd7DAH"
+  } ]
+}, {
+  "artistId" : "6eUKZXaKkcviH0Ku9w2n3V",
+  "id" : "34gCuhDGsG4bRPIf9bb02f",
+  "name" : "Thinking out Loud",
+  "duration_ms" : 281560,
+  "popularity" : 81,
+  "uri" : "spotify:track:34gCuhDGsG4bRPIf9bb02f",
+  "artists" : [ {
+    "id" : "6eUKZXaKkcviH0Ku9w2n3V",
+    "name" : "Ed Sheeran",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:6eUKZXaKkcviH0Ku9w2n3V"
+  } ]
+}, {
+  "artistId" : "3JhNCzhSMTxs9WLGJJxWOY",
+  "id" : "3bidbhpOYeV4knp8AIu8Xn",
+  "name" : "Can't Hold Us (feat. Ray Dalton)",
+  "duration_ms" : 258342,
+  "popularity" : 76,
+  "uri" : "spotify:track:3bidbhpOYeV4knp8AIu8Xn",
+  "artists" : [ {
+    "id" : "3JhNCzhSMTxs9WLGJJxWOY",
+    "name" : "Macklemore",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:3JhNCzhSMTxs9WLGJJxWOY"
+  }, {
+    "id" : "4myTppRgh0rojLxx8RycOp",
+    "name" : "Ryan Lewis",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:4myTppRgh0rojLxx8RycOp"
+  }, {
+    "id" : "6WLvgbfYXQPO396oJEYCsi",
+    "name" : "Macklemore & Ryan Lewis",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:6WLvgbfYXQPO396oJEYCsi"
+  }, {
+    "id" : "4e0nWw2r4BoQSKPQ2zpU13",
+    "name" : "Ray Dalton",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:4e0nWw2r4BoQSKPQ2zpU13"
+  } ]
+}, {
+  "artistId" : "1wt5n6vpRwMFEkRke3yow1",
+  "id" : "3AMftFgLBMpeMnRZZ0hTF4",
+  "name" : "Here and Now",
+  "duration_ms" : 203005,
+  "popularity" : 21,
+  "uri" : "spotify:track:3AMftFgLBMpeMnRZZ0hTF4",
+  "artists" : [ {
+    "id" : "1wt5n6vpRwMFEkRke3yow1",
+    "name" : "What Matters The Most",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:1wt5n6vpRwMFEkRke3yow1"
+  } ]
+}, {
+  "artistId" : "4gzpq5DPGxSnKTe4SA8HAU",
+  "id" : "3AJwUDP919kvQ9QcozQPxg",
+  "name" : "Yellow",
+  "duration_ms" : 266773,
+  "popularity" : 89,
+  "uri" : "spotify:track:3AJwUDP919kvQ9QcozQPxg",
+  "artists" : [ {
+    "id" : "4gzpq5DPGxSnKTe4SA8HAU",
+    "name" : "Coldplay",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:4gzpq5DPGxSnKTe4SA8HAU"
+  } ]
+}, {
+  "artistId" : "0Y5tJX1MQlPlqiwlOH1tJY",
+  "id" : "6gBFPUFcJLzWGx4lenP6h2",
+  "name" : "goosebumps",
+  "duration_ms" : 243836,
+  "popularity" : 85,
+  "uri" : "spotify:track:6gBFPUFcJLzWGx4lenP6h2",
+  "artists" : [ {
+    "id" : "0Y5tJX1MQlPlqiwlOH1tJY",
+    "name" : "Travis Scott",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:0Y5tJX1MQlPlqiwlOH1tJY"
+  } ]
+}, {
+  "artistId" : "1HY2Jd0NmPuamShAr6KMms",
+  "id" : "2VxeLyX666F8uXCJ0dZF8B",
+  "name" : "Shallow",
+  "duration_ms" : 215733,
+  "popularity" : 82,
+  "uri" : "spotify:track:2VxeLyX666F8uXCJ0dZF8B",
+  "artists" : [ {
+    "id" : "1HY2Jd0NmPuamShAr6KMms",
+    "name" : "Lady Gaga",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:1HY2Jd0NmPuamShAr6KMms"
+  }, {
+    "id" : "4VIvfOurcf0vuLRxLkGnIG",
+    "name" : "Bradley Cooper",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:4VIvfOurcf0vuLRxLkGnIG"
+  } ]
+}, {
+  "artistId" : "7se3XiMaYONsvdAhOJczcV",
+  "id" : "4iwLDA6XdWfkQnCzyqNjKq",
+  "name" : "Imperfections",
+  "duration_ms" : 209565,
+  "popularity" : 37,
+  "uri" : "spotify:track:4iwLDA6XdWfkQnCzyqNjKq",
+  "artists" : [ {
+    "id" : "7se3XiMaYONsvdAhOJczcV",
+    "name" : "Izza",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:7se3XiMaYONsvdAhOJczcV"
+  } ]
+}, {
+  "artistId" : "06HL4z0CvFAxyc27GXpf02",
+  "id" : "1BxfuPKGuaTgP7aM0Bbdwr",
+  "name" : "Cruel Summer",
+  "duration_ms" : 178426,
+  "popularity" : 89,
+  "uri" : "spotify:track:1BxfuPKGuaTgP7aM0Bbdwr",
+  "artists" : [ {
+    "id" : "06HL4z0CvFAxyc27GXpf02",
+    "name" : "Taylor Swift",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:06HL4z0CvFAxyc27GXpf02"
+  } ]
+}, {
+  "artistId" : "1uNFoZAHBGtllmzznpCI3s",
+  "id" : "3hB5DgAiMAQ4DzYbsMq1IT",
+  "name" : "Love Yourself",
+  "duration_ms" : 233720,
+  "popularity" : 2,
+  "uri" : "spotify:track:3hB5DgAiMAQ4DzYbsMq1IT",
+  "artists" : [ {
+    "id" : "1uNFoZAHBGtllmzznpCI3s",
+    "name" : "Justin Bieber",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:1uNFoZAHBGtllmzznpCI3s"
+  } ]
+}, {
+  "artistId" : "7Ln80lUS6He07XvHI8qqHH",
+  "id" : "5XeFesFbtLpXzIVDNQP22n",
+  "name" : "I Wanna Be Yours",
+  "duration_ms" : 183956,
+  "popularity" : 88,
+  "uri" : "spotify:track:5XeFesFbtLpXzIVDNQP22n",
+  "artists" : [ {
+    "id" : "7Ln80lUS6He07XvHI8qqHH",
+    "name" : "Arctic Monkeys",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+  } ]
+}, {
+  "artistId" : "53XhwfbYqKCa1cC15pYq2q",
+  "id" : "0tKcYR2II1VCQWT79i5NrW",
+  "name" : "Thunder",
+  "duration_ms" : 187146,
+  "popularity" : 3,
+  "uri" : "spotify:track:0tKcYR2II1VCQWT79i5NrW",
+  "artists" : [ {
+    "id" : "53XhwfbYqKCa1cC15pYq2q",
+    "name" : "Imagine Dragons",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:53XhwfbYqKCa1cC15pYq2q"
+  } ]
+}, {
+  "artistId" : "5y2Xq6xcjJb2jVM54GHK3t",
+  "id" : "3U4isOIWM3VvDubwSI3y7a",
+  "name" : "All of Me",
+  "duration_ms" : 269560,
+  "popularity" : 83,
+  "uri" : "spotify:track:3U4isOIWM3VvDubwSI3y7a",
+  "artists" : [ {
+    "id" : "5y2Xq6xcjJb2jVM54GHK3t",
+    "name" : "John Legend",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:5y2Xq6xcjJb2jVM54GHK3t"
+  } ]
+}, {
+  "artistId" : "6ltzsmQQbmdoHHbLZ4ZN25",
+  "id" : "3hRV0jL3vUpRrcy398teAU",
+  "name" : "The Night We Met",
+  "duration_ms" : 208211,
+  "popularity" : 88,
+  "uri" : "spotify:track:3hRV0jL3vUpRrcy398teAU",
+  "artists" : [ {
+    "id" : "6ltzsmQQbmdoHHbLZ4ZN25",
+    "name" : "Lord Huron",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:6ltzsmQQbmdoHHbLZ4ZN25"
+  } ]
+}, {
+  "artistId" : "0XIjLSi3fr8On0Dwq208Lp",
+  "id" : "3eoan9A3pDSzDZzDzh0Xrr",
+  "name" : "On My Way",
+  "duration_ms" : 216840,
+  "popularity" : 42,
+  "uri" : "spotify:track:3eoan9A3pDSzDZzDzh0Xrr",
+  "artists" : [ {
+    "id" : "0XIjLSi3fr8On0Dwq208Lp",
+    "name" : "Jay Putty",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:0XIjLSi3fr8On0Dwq208Lp"
+  } ]
+}, {
+  "artistId" : "1Xyo4u8uXC1ZmMpatF05PJ",
+  "id" : "2Ch7LmS7r2Gy2kc64wv3Bz",
+  "name" : "Die For You",
+  "duration_ms" : 260252,
+  "popularity" : 78,
+  "uri" : "spotify:track:2Ch7LmS7r2Gy2kc64wv3Bz",
+  "artists" : [ {
+    "id" : "1Xyo4u8uXC1ZmMpatF05PJ",
+    "name" : "The Weeknd",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:1Xyo4u8uXC1ZmMpatF05PJ"
+  } ]
+}, {
+  "artistId" : "1vCWHaC5f2uS3yhpwWbIA6",
+  "id" : "6g1NlCpW7fgqDnWbCCDrHl",
+  "name" : "Wake Me Up - Radio Edit",
+  "duration_ms" : 247426,
+  "popularity" : 4,
+  "uri" : "spotify:track:6g1NlCpW7fgqDnWbCCDrHl",
+  "artists" : [ {
+    "id" : "1vCWHaC5f2uS3yhpwWbIA6",
+    "name" : "Avicii",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:1vCWHaC5f2uS3yhpwWbIA6"
+  } ]
+}, {
+  "artistId" : "53XhwfbYqKCa1cC15pYq2q",
+  "id" : "2Oehrcv4Kov0SuIgWyQY9e",
+  "name" : "Demons",
+  "duration_ms" : 175200,
+  "popularity" : 20,
+  "uri" : "spotify:track:2Oehrcv4Kov0SuIgWyQY9e",
+  "artists" : [ {
+    "id" : "53XhwfbYqKCa1cC15pYq2q",
+    "name" : "Imagine Dragons",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:53XhwfbYqKCa1cC15pYq2q"
+  } ]
+}, {
+  "artistId" : "1Xyo4u8uXC1ZmMpatF05PJ",
+  "id" : "25khomWgBVamSdKw7hzm3l",
+  "name" : "The Hills",
+  "duration_ms" : 242253,
+  "popularity" : 1,
+  "uri" : "spotify:track:25khomWgBVamSdKw7hzm3l",
+  "artists" : [ {
+    "id" : "1Xyo4u8uXC1ZmMpatF05PJ",
+    "name" : "The Weeknd",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:1Xyo4u8uXC1ZmMpatF05PJ"
+  } ]
+}, {
+  "artistId" : "5cGGK7iteXrsLm0fPX7gfb",
+  "id" : "23ZFWDVtZgdKY2s509MR6Z",
+  "name" : "Drive",
+  "duration_ms" : 180142,
+  "popularity" : 26,
+  "uri" : "spotify:track:23ZFWDVtZgdKY2s509MR6Z",
+  "artists" : [ {
+    "id" : "5cGGK7iteXrsLm0fPX7gfb",
+    "name" : "Andrew Mijares",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:5cGGK7iteXrsLm0fPX7gfb"
+  } ]
+}, {
+  "artistId" : "3YQKmKGau1PzlVlkL1iodx",
+  "id" : "3CRDbSIZ4r5MsZ0YwxuEkn",
+  "name" : "Stressed Out",
+  "duration_ms" : 202333,
+  "popularity" : 83,
+  "uri" : "spotify:track:3CRDbSIZ4r5MsZ0YwxuEkn",
+  "artists" : [ {
+    "id" : "3YQKmKGau1PzlVlkL1iodx",
+    "name" : "Twenty One Pilots",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:3YQKmKGau1PzlVlkL1iodx"
+  } ]
+}, {
+  "artistId" : "4gzpq5DPGxSnKTe4SA8HAU",
+  "id" : "1mea3bSkSGXuIRvnydlB5b",
+  "name" : "Viva La Vida",
+  "duration_ms" : 242373,
+  "popularity" : 84,
+  "uri" : "spotify:track:1mea3bSkSGXuIRvnydlB5b",
+  "artists" : [ {
+    "id" : "4gzpq5DPGxSnKTe4SA8HAU",
+    "name" : "Coldplay",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:4gzpq5DPGxSnKTe4SA8HAU"
+  } ]
+}, {
+  "artistId" : "6l3HvQ5sa6mXTsMTB19rO5",
+  "id" : "68Dni7IE4VyPkTOH9mRWHr",
+  "name" : "No Role Modelz",
+  "duration_ms" : 292799,
+  "popularity" : 84,
+  "uri" : "spotify:track:68Dni7IE4VyPkTOH9mRWHr",
+  "artists" : [ {
+    "id" : "6l3HvQ5sa6mXTsMTB19rO5",
+    "name" : "J. Cole",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:6l3HvQ5sa6mXTsMTB19rO5"
+  } ]
+}, {
+  "artistId" : "0N0lbSVgiewWYgrkej6IL3",
+  "id" : "3JN0Zx6KfsqtMnTyvI0iDX",
+  "name" : "FIRE",
+  "duration_ms" : 175573,
+  "popularity" : 29,
+  "uri" : "spotify:track:3JN0Zx6KfsqtMnTyvI0iDX",
+  "artists" : [ {
+    "id" : "0N0lbSVgiewWYgrkej6IL3",
+    "name" : "MELINDA LINDNER",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:0N0lbSVgiewWYgrkej6IL3"
+  } ]
+}, {
+  "artistId" : "2YZyLoL8N0Wb9xBt1NhZWg",
+  "id" : "7ujx3NYtwO2LkmKGz59mXp",
+  "name" : "HUMBLE.",
+  "duration_ms" : 177000,
+  "popularity" : 1,
+  "uri" : "spotify:track:7ujx3NYtwO2LkmKGz59mXp",
+  "artists" : [ {
+    "id" : "2YZyLoL8N0Wb9xBt1NhZWg",
+    "name" : "Kendrick Lamar",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:2YZyLoL8N0Wb9xBt1NhZWg"
+  } ]
+}, {
+  "artistId" : "0gadJ2b9A4SKsB1RFkBb66",
+  "id" : "7DFNE7NO0raLIUbgzY2rzm",
+  "name" : "Let Her Go",
+  "duration_ms" : 252866,
+  "popularity" : 4,
+  "uri" : "spotify:track:7DFNE7NO0raLIUbgzY2rzm",
+  "artists" : [ {
+    "id" : "0gadJ2b9A4SKsB1RFkBb66",
+    "name" : "Passenger",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:0gadJ2b9A4SKsB1RFkBb66"
+  } ]
+}, {
+  "artistId" : "66CXWjxzNUsdJxJ2JdwvnR",
+  "id" : "6ocbgoVGwYJhOv1GgI9NsF",
+  "name" : "7 rings",
+  "duration_ms" : 178626,
+  "popularity" : 82,
+  "uri" : "spotify:track:6ocbgoVGwYJhOv1GgI9NsF",
+  "artists" : [ {
+    "id" : "66CXWjxzNUsdJxJ2JdwvnR",
+    "name" : "Ariana Grande",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:66CXWjxzNUsdJxJ2JdwvnR"
+  } ]
+}, {
+  "artistId" : "0C0XlULifJtAgn6ZNCW2eu",
+  "id" : "003vvx7Niy0yvhvHt4a68B",
+  "name" : "Mr. Brightside",
+  "duration_ms" : 222973,
+  "popularity" : 85,
+  "uri" : "spotify:track:003vvx7Niy0yvhvHt4a68B",
+  "artists" : [ {
+    "id" : "0C0XlULifJtAgn6ZNCW2eu",
+    "name" : "The Killers",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:0C0XlULifJtAgn6ZNCW2eu"
+  } ]
+}, {
+  "artistId" : "7dGJo4pcD2V6oG8kP0tJRR",
+  "id" : "7lQ8MOhq6IN2w8EYcFNSUk",
+  "name" : "Without Me",
+  "duration_ms" : 290320,
+  "popularity" : 86,
+  "uri" : "spotify:track:7lQ8MOhq6IN2w8EYcFNSUk",
+  "artists" : [ {
+    "id" : "7dGJo4pcD2V6oG8kP0tJRR",
+    "name" : "Eminem",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:7dGJo4pcD2V6oG8kP0tJRR"
+  } ]
+}, {
+  "artistId" : "7dGJo4pcD2V6oG8kP0tJRR",
+  "id" : "7MJQ9Nfxzh8LPZ9e9u68Fq",
+  "name" : "Lose Yourself",
+  "duration_ms" : 320626,
+  "popularity" : 69,
+  "uri" : "spotify:track:7MJQ9Nfxzh8LPZ9e9u68Fq",
+  "artists" : [ {
+    "id" : "7dGJo4pcD2V6oG8kP0tJRR",
+    "name" : "Eminem",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:7dGJo4pcD2V6oG8kP0tJRR"
+  } ]
+}, {
+  "artistId" : "0du5cEVh5yTK9QJze8zA0C",
+  "id" : "0B7wvvmu9EISAwZnOpjhNI",
+  "name" : "When I Was Your Man",
+  "duration_ms" : 213826,
+  "popularity" : 51,
+  "uri" : "spotify:track:0B7wvvmu9EISAwZnOpjhNI",
+  "artists" : [ {
+    "id" : "0du5cEVh5yTK9QJze8zA0C",
+    "name" : "Bruno Mars",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:0du5cEVh5yTK9QJze8zA0C"
+  } ]
+}, {
+  "artistId" : "7Ln80lUS6He07XvHI8qqHH",
+  "id" : "5FVd6KXrgO9B3JPmC8OPst",
+  "name" : "Do I Wanna Know?",
+  "duration_ms" : 272394,
+  "popularity" : 84,
+  "uri" : "spotify:track:5FVd6KXrgO9B3JPmC8OPst",
+  "artists" : [ {
+    "id" : "7Ln80lUS6He07XvHI8qqHH",
+    "name" : "Arctic Monkeys",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+  } ]
+}, {
+  "artistId" : "0du5cEVh5yTK9QJze8zA0C",
+  "id" : "47Slg6LuqLaX0VodpSCvPt",
+  "name" : "Just the Way You Are",
+  "duration_ms" : 220734,
+  "popularity" : 81,
+  "uri" : "spotify:track:47Slg6LuqLaX0VodpSCvPt",
+  "artists" : [ {
+    "id" : "0du5cEVh5yTK9QJze8zA0C",
+    "name" : "Bruno Mars",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:0du5cEVh5yTK9QJze8zA0C"
+  } ]
+}, {
+  "artistId" : "1McMsnEElThX1knmY4oliG",
+  "id" : "5wANPM4fQCJwkGd4rN57mH",
+  "name" : "drivers license",
+  "duration_ms" : 242013,
+  "popularity" : 82,
+  "uri" : "spotify:track:5wANPM4fQCJwkGd4rN57mH",
+  "artists" : [ {
+    "id" : "1McMsnEElThX1knmY4oliG",
+    "name" : "Olivia Rodrigo",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:1McMsnEElThX1knmY4oliG"
+  } ]
+}, {
+  "artistId" : "6hejDZ8r5VhdPAdaQ3gNRf",
+  "id" : "4c9ihNMojL2wOGglzQ2aCG",
+  "name" : "How Many Times",
+  "duration_ms" : 330000,
+  "popularity" : 34,
+  "uri" : "spotify:track:4c9ihNMojL2wOGglzQ2aCG",
+  "artists" : [ {
+    "id" : "6hejDZ8r5VhdPAdaQ3gNRf",
+    "name" : "JJ & The Mood",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:6hejDZ8r5VhdPAdaQ3gNRf"
+  } ]
+}, {
+  "artistId" : "7CajNmpbOovFoOoasH2HaY",
+  "id" : "7ef4DlsgrMEH11cDZd32M6",
+  "name" : "One Kiss (with Dua Lipa)",
+  "duration_ms" : 214846,
+  "popularity" : 78,
+  "uri" : "spotify:track:7ef4DlsgrMEH11cDZd32M6",
+  "artists" : [ {
+    "id" : "7CajNmpbOovFoOoasH2HaY",
+    "name" : "Calvin Harris",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:7CajNmpbOovFoOoasH2HaY"
+  }, {
+    "id" : "6M2wZ9GZgrQXHCFfjv46we",
+    "name" : "Dua Lipa",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:6M2wZ9GZgrQXHCFfjv46we"
+  } ]
+}, {
+  "artistId" : "7n2wHs1TKAczGzO7Dd2rGr",
+  "id" : "48DKpTEVJ2pAjxQbWTad3q",
+  "name" : "Treat You Better",
+  "duration_ms" : 187973,
+  "popularity" : 54,
+  "uri" : "spotify:track:48DKpTEVJ2pAjxQbWTad3q",
+  "artists" : [ {
+    "id" : "7n2wHs1TKAczGzO7Dd2rGr",
+    "name" : "Shawn Mendes",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:7n2wHs1TKAczGzO7Dd2rGr"
+  } ]
+}, {
+  "artistId" : "1McMsnEElThX1knmY4oliG",
+  "id" : "4ZtFanR9U6ndgddUvNcjcG",
+  "name" : "good 4 u",
+  "duration_ms" : 178146,
+  "popularity" : 82,
+  "uri" : "spotify:track:4ZtFanR9U6ndgddUvNcjcG",
+  "artists" : [ {
+    "id" : "1McMsnEElThX1knmY4oliG",
+    "name" : "Olivia Rodrigo",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:1McMsnEElThX1knmY4oliG"
+  } ]
+}, {
+  "artistId" : "15UsOTVnJzReFVN1VCnxy4",
+  "id" : "3ee8Jmje8o58CHK66QrVC2",
+  "name" : "SAD!",
+  "duration_ms" : 166605,
+  "popularity" : 79,
+  "uri" : "spotify:track:3ee8Jmje8o58CHK66QrVC2",
+  "artists" : [ {
+    "id" : "15UsOTVnJzReFVN1VCnxy4",
+    "name" : "XXXTENTACION",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:15UsOTVnJzReFVN1VCnxy4"
+  } ]
+}, {
+  "artistId" : "540vIaP2JwjQb9dm3aArA4",
+  "id" : "0lYBSQXN6rCTvUZvg9S0lU",
+  "name" : "Let Me Love You",
+  "duration_ms" : 205946,
+  "popularity" : 83,
+  "uri" : "spotify:track:0lYBSQXN6rCTvUZvg9S0lU",
+  "artists" : [ {
+    "id" : "540vIaP2JwjQb9dm3aArA4",
+    "name" : "DJ Snake",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:540vIaP2JwjQb9dm3aArA4"
+  }, {
+    "id" : "1uNFoZAHBGtllmzznpCI3s",
+    "name" : "Justin Bieber",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:1uNFoZAHBGtllmzznpCI3s"
+  } ]
+}, {
+  "artistId" : "6vXTefBL93Dj5IqAWq6OTv",
+  "id" : "3B54sVLJ402zGa6Xm4YGNe",
+  "name" : "Unforgettable",
+  "duration_ms" : 233901,
+  "popularity" : 84,
+  "uri" : "spotify:track:3B54sVLJ402zGa6Xm4YGNe",
+  "artists" : [ {
+    "id" : "6vXTefBL93Dj5IqAWq6OTv",
+    "name" : "French Montana",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:6vXTefBL93Dj5IqAWq6OTv"
+  }, {
+    "id" : "1zNqQNIdeOUZHb8zbZRFMX",
+    "name" : "Swae Lee",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:1zNqQNIdeOUZHb8zbZRFMX"
+  } ]
+}, {
+  "artistId" : "5YGY8feqx7naU7z4HrwZM6",
+  "id" : "7DSAEUvxU8FajXtRloy8M0",
+  "name" : "Flowers",
+  "duration_ms" : 200600,
+  "popularity" : 87,
+  "uri" : "spotify:track:7DSAEUvxU8FajXtRloy8M0",
+  "artists" : [ {
+    "id" : "5YGY8feqx7naU7z4HrwZM6",
+    "name" : "Miley Cyrus",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:5YGY8feqx7naU7z4HrwZM6"
+  } ]
+}, {
+  "artistId" : "6XyY86QOPPrYVGvF9ch6wz",
+  "id" : "60a0Rd6pjrkxjPbaKzXjfq",
+  "name" : "In the End",
+  "duration_ms" : 216880,
+  "popularity" : 88,
+  "uri" : "spotify:track:60a0Rd6pjrkxjPbaKzXjfq",
+  "artists" : [ {
+    "id" : "6XyY86QOPPrYVGvF9ch6wz",
+    "name" : "Linkin Park",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:6XyY86QOPPrYVGvF9ch6wz"
+  } ]
+}, {
+  "artistId" : "15UsOTVnJzReFVN1VCnxy4",
+  "id" : "7m9OqQk4RVRkw9JJdeAw96",
+  "name" : "Jocelyn Flores",
+  "duration_ms" : 119133,
+  "popularity" : 80,
+  "uri" : "spotify:track:7m9OqQk4RVRkw9JJdeAw96",
+  "artists" : [ {
+    "id" : "15UsOTVnJzReFVN1VCnxy4",
+    "name" : "XXXTENTACION",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:15UsOTVnJzReFVN1VCnxy4"
+  } ]
+}, {
+  "artistId" : "5NGO30tJxFlKixkPSgXcFE",
+  "id" : "1JSTJqkT5qHq8MDJnJbRE1",
+  "name" : "Every Breath You Take",
+  "duration_ms" : 253920,
+  "popularity" : 86,
+  "uri" : "spotify:track:1JSTJqkT5qHq8MDJnJbRE1",
+  "artists" : [ {
+    "id" : "5NGO30tJxFlKixkPSgXcFE",
+    "name" : "The Police",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:5NGO30tJxFlKixkPSgXcFE"
+  } ]
+}, {
+  "artistId" : "0du5cEVh5yTK9QJze8zA0C",
+  "id" : "0KKkJNfGyhkQ5aFogxQAPU",
+  "name" : "That's What I Like",
+  "duration_ms" : 206693,
+  "popularity" : 89,
+  "uri" : "spotify:track:0KKkJNfGyhkQ5aFogxQAPU",
+  "artists" : [ {
+    "id" : "0du5cEVh5yTK9QJze8zA0C",
+    "name" : "Bruno Mars",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:0du5cEVh5yTK9QJze8zA0C"
+  } ]
+}, {
+  "artistId" : "64KEffDW9EtZ1y2vBYgq8T",
+  "id" : "2dpaYNEQHiRxtZbfNsse99",
+  "name" : "Happier",
+  "duration_ms" : 214289,
+  "popularity" : 12,
+  "uri" : "spotify:track:2dpaYNEQHiRxtZbfNsse99",
+  "artists" : [ {
+    "id" : "64KEffDW9EtZ1y2vBYgq8T",
+    "name" : "Marshmello",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:64KEffDW9EtZ1y2vBYgq8T"
+  }, {
+    "id" : "7EQ0qTo7fWT7DPxmxtSYEc",
+    "name" : "Bastille",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:7EQ0qTo7fWT7DPxmxtSYEc"
+  } ]
+}, {
+  "artistId" : "0du5cEVh5yTK9QJze8zA0C",
+  "id" : "5g7sDjBhZ4I3gcFIpkrLuI",
+  "name" : "Locked out of Heaven",
+  "duration_ms" : 233653,
+  "popularity" : 52,
+  "uri" : "spotify:track:5g7sDjBhZ4I3gcFIpkrLuI",
+  "artists" : [ {
+    "id" : "0du5cEVh5yTK9QJze8zA0C",
+    "name" : "Bruno Mars",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:0du5cEVh5yTK9QJze8zA0C"
+  } ]
+}, {
+  "artistId" : "4O15NlyKLIASxsJ0PrXPfz",
+  "id" : "7GX5flRQZVHRAGd6B4TmDO",
+  "name" : "XO Tour Llif3",
+  "duration_ms" : 182706,
+  "popularity" : 81,
+  "uri" : "spotify:track:7GX5flRQZVHRAGd6B4TmDO",
+  "artists" : [ {
+    "id" : "4O15NlyKLIASxsJ0PrXPfz",
+    "name" : "Lil Uzi Vert",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:4O15NlyKLIASxsJ0PrXPfz"
+  } ]
+}, {
+  "artistId" : "0Y5tJX1MQlPlqiwlOH1tJY",
+  "id" : "2xLMifQCjDGFmkHkpNLD9h",
+  "name" : "SICKO MODE",
+  "duration_ms" : 312820,
+  "popularity" : 81,
+  "uri" : "spotify:track:2xLMifQCjDGFmkHkpNLD9h",
+  "artists" : [ {
+    "id" : "0Y5tJX1MQlPlqiwlOH1tJY",
+    "name" : "Travis Scott",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:0Y5tJX1MQlPlqiwlOH1tJY"
+  } ]
+}, {
+  "artistId" : "1uNFoZAHBGtllmzznpCI3s",
+  "id" : "69bp2EbF7Q2rqc5N3ylezZ",
+  "name" : "Sorry",
+  "duration_ms" : 200786,
+  "popularity" : 2,
+  "uri" : "spotify:track:69bp2EbF7Q2rqc5N3ylezZ",
+  "artists" : [ {
+    "id" : "1uNFoZAHBGtllmzznpCI3s",
+    "name" : "Justin Bieber",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:1uNFoZAHBGtllmzznpCI3s"
+  } ]
+}, {
+  "artistId" : "738wLrAtLtCtFOLvQBXOXp",
+  "id" : "4WjH9Bzt3kx7z8kl0awxh4",
+  "name" : "Lean On (feat. MØ & DJ Snake)",
+  "duration_ms" : 176561,
+  "popularity" : 1,
+  "uri" : "spotify:track:4WjH9Bzt3kx7z8kl0awxh4",
+  "artists" : [ {
+    "id" : "738wLrAtLtCtFOLvQBXOXp",
+    "name" : "Major Lazer",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:738wLrAtLtCtFOLvQBXOXp"
+  }, {
+    "id" : "0bdfiayQAKewqEvaU6rXCv",
+    "name" : "MØ",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:0bdfiayQAKewqEvaU6rXCv"
+  }, {
+    "id" : "540vIaP2JwjQb9dm3aArA4",
+    "name" : "DJ Snake",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:540vIaP2JwjQb9dm3aArA4"
+  } ]
+}, {
+  "artistId" : "6M2wZ9GZgrQXHCFfjv46we",
+  "id" : "2ekn2ttSfGqwhhate0LSR0",
+  "name" : "New Rules",
+  "duration_ms" : 209320,
+  "popularity" : 78,
+  "uri" : "spotify:track:2ekn2ttSfGqwhhate0LSR0",
+  "artists" : [ {
+    "id" : "6M2wZ9GZgrQXHCFfjv46we",
+    "name" : "Dua Lipa",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:6M2wZ9GZgrQXHCFfjv46we"
+  } ]
+}, {
+  "artistId" : "2tDA2vvMMRpi5GZL0hzqqj",
+  "id" : "2tfZPbEIwU2TdlRdtCiFoF",
+  "name" : "Heartless",
+  "duration_ms" : 150976,
+  "popularity" : 34,
+  "uri" : "spotify:track:2tfZPbEIwU2TdlRdtCiFoF",
+  "artists" : [ {
+    "id" : "2tDA2vvMMRpi5GZL0hzqqj",
+    "name" : "Alexcis",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:2tDA2vvMMRpi5GZL0hzqqj"
+  }, {
+    "id" : "6cUpFVxDYWed9WxtC4QgC5",
+    "name" : "Wallie the Sensei",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:6cUpFVxDYWed9WxtC4QgC5"
+  }, {
+    "id" : "2nmXKh1URuUD1DaIoWJ9ww",
+    "name" : "TK RUN IT UP",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:2nmXKh1URuUD1DaIoWJ9ww"
+  } ]
+}, {
+  "artistId" : "7n2wHs1TKAczGzO7Dd2rGr",
+  "id" : "7JJmb5XwzOO8jgpou264Ml",
+  "name" : "There's Nothing Holdin' Me Back",
+  "duration_ms" : 199440,
+  "popularity" : 84,
+  "uri" : "spotify:track:7JJmb5XwzOO8jgpou264Ml",
+  "artists" : [ {
+    "id" : "7n2wHs1TKAczGzO7Dd2rGr",
+    "name" : "Shawn Mendes",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:7n2wHs1TKAczGzO7Dd2rGr"
+  } ]
+}, {
+  "artistId" : "6M2wZ9GZgrQXHCFfjv46we",
+  "id" : "463CkQjx2Zk1yXoBuierM9",
+  "name" : "Levitating (feat. DaBaby)",
+  "duration_ms" : 203064,
+  "popularity" : 66,
+  "uri" : "spotify:track:463CkQjx2Zk1yXoBuierM9",
+  "artists" : [ {
+    "id" : "6M2wZ9GZgrQXHCFfjv46we",
+    "name" : "Dua Lipa",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:6M2wZ9GZgrQXHCFfjv46we"
+  }, {
+    "id" : "4r63FhuTkUYltbVAg5TQnk",
+    "name" : "DaBaby",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:4r63FhuTkUYltbVAg5TQnk"
+  } ]
+}, {
+  "artistId" : "6olE6TJLqED3rqDCT0FyPh",
+  "id" : "4CeeEOM32jQcH3eN9Q2dGj",
+  "name" : "Smells Like Teen Spirit",
+  "duration_ms" : 301920,
+  "popularity" : 81,
+  "uri" : "spotify:track:4CeeEOM32jQcH3eN9Q2dGj",
+  "artists" : [ {
+    "id" : "6olE6TJLqED3rqDCT0FyPh",
+    "name" : "Nirvana",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:6olE6TJLqED3rqDCT0FyPh"
+  } ]
+}, {
+  "artistId" : "3PhoLpVuITZKcymswpck5b",
+  "id" : "6zSpb8dQRaw0M1dK8PBwQz",
+  "name" : "Cold Heart - PNAU Remix",
+  "duration_ms" : 202735,
+  "popularity" : 79,
+  "uri" : "spotify:track:6zSpb8dQRaw0M1dK8PBwQz",
+  "artists" : [ {
+    "id" : "3PhoLpVuITZKcymswpck5b",
+    "name" : "Elton John",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:3PhoLpVuITZKcymswpck5b"
+  }, {
+    "id" : "6M2wZ9GZgrQXHCFfjv46we",
+    "name" : "Dua Lipa",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:6M2wZ9GZgrQXHCFfjv46we"
+  }, {
+    "id" : "6n28c9qs9hNGriNa72b26u",
+    "name" : "PNAU",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:6n28c9qs9hNGriNa72b26u"
+  } ]
+}, {
+  "artistId" : "6Jsh7nTKdhKsVHP5zHooI0",
+  "id" : "2yRiJCQXmFu5gqY00gmQhQ",
+  "name" : "Not Okay",
+  "duration_ms" : 172500,
+  "popularity" : 22,
+  "uri" : "spotify:track:2yRiJCQXmFu5gqY00gmQhQ",
+  "artists" : [ {
+    "id" : "6Jsh7nTKdhKsVHP5zHooI0",
+    "name" : "Cwby",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:6Jsh7nTKdhKsVHP5zHooI0"
+  }, {
+    "id" : "1QQxgPT4qgPLps6RFTLCjJ",
+    "name" : "Rowlan",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:1QQxgPT4qgPLps6RFTLCjJ"
+  } ]
+}, {
+  "artistId" : "2wY79sveU1sp5g7SokKOiI",
+  "id" : "1mXVgsBdtIVeCLJnSnmtdV",
+  "name" : "Too Good At Goodbyes",
+  "duration_ms" : 201000,
+  "popularity" : 81,
+  "uri" : "spotify:track:1mXVgsBdtIVeCLJnSnmtdV",
+  "artists" : [ {
+    "id" : "2wY79sveU1sp5g7SokKOiI",
+    "name" : "Sam Smith",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:2wY79sveU1sp5g7SokKOiI"
+  } ]
+}, {
+  "artistId" : "2wY79sveU1sp5g7SokKOiI",
+  "id" : "2whoe0pPKh4JRn6eWSIqTV",
+  "name" : "Stay With Me",
+  "duration_ms" : 172723,
+  "popularity" : 1,
+  "uri" : "spotify:track:2whoe0pPKh4JRn6eWSIqTV",
+  "artists" : [ {
+    "id" : "2wY79sveU1sp5g7SokKOiI",
+    "name" : "Sam Smith",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:2wY79sveU1sp5g7SokKOiI"
+  } ]
+}, {
+  "artistId" : "4fjAtF6VmMxQHxKI5C3HPO",
+  "id" : "6QkEV7Krf7WV2UdILlgN4Z",
+  "name" : "Daydreaming",
+  "duration_ms" : 153529,
+  "popularity" : 46,
+  "uri" : "spotify:track:6QkEV7Krf7WV2UdILlgN4Z",
+  "artists" : [ {
+    "id" : "4fjAtF6VmMxQHxKI5C3HPO",
+    "name" : "Bruklin",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:4fjAtF6VmMxQHxKI5C3HPO"
+  } ]
+}, {
+  "artistId" : "7tYKF4w9nC0nq9CsPZTHyP",
+  "id" : "3OHfY25tqY28d16oZczHc8",
+  "name" : "Kill Bill",
+  "duration_ms" : 153946,
+  "popularity" : 77,
+  "uri" : "spotify:track:3OHfY25tqY28d16oZczHc8",
+  "artists" : [ {
+    "id" : "7tYKF4w9nC0nq9CsPZTHyP",
+    "name" : "SZA",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:7tYKF4w9nC0nq9CsPZTHyP"
+  } ]
+}, {
+  "artistId" : "4nDoRrQiYLoBzwC5BhVJzF",
+  "id" : "1rfofaqEpACxVEHIZBJe6W",
+  "name" : "Havana (feat. Young Thug)",
+  "duration_ms" : 217306,
+  "popularity" : 80,
+  "uri" : "spotify:track:1rfofaqEpACxVEHIZBJe6W",
+  "artists" : [ {
+    "id" : "4nDoRrQiYLoBzwC5BhVJzF",
+    "name" : "Camila Cabello",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:4nDoRrQiYLoBzwC5BhVJzF"
+  }, {
+    "id" : "50co4Is1HCEo8bhOyUWKpn",
+    "name" : "Young Thug",
+    "followers" : 0,
+    "genres" : null,
+    "images" : null,
+    "popularity" : 0,
+    "uri" : "spotify:artist:50co4Is1HCEo8bhOyUWKpn"
+  } ]
+}, {
+  "artistId" : null,
+  "id" : null,
+  "name" : null,
+  "duration_ms" : 0,
+  "popularity" : 0,
+  "uri" : null,
+  "artists" : null
+} ]
