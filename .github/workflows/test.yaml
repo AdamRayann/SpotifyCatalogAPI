@@ -1,4 +1,4 @@
-name: SpotifyCatalogAPI tests
+name: SpotifyCatalogAPI Tests
 
 on:
   pull_request:
@@ -15,7 +15,7 @@ permissions:
 
 jobs:
   test:
-    name: Run Maven Tests
+    name: Run Maven and JMeter Tests
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -27,5 +27,27 @@ jobs:
           distribution: 'temurin'
           java-version: '23'
 
-      - name: Run Tests
+      - name: Run Maven Tests
         run: mvn test
+
+  jmeter:
+    name: Run JMeter Tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Run JMeter Action on a test
+        uses: rbhadti94/apache-jmeter-action@v0.5.0
+        with:
+          testFilePath: sample_test.jmx
+          outputReportsFolder: reports/
+          args: "--loglevel INFO"
+
+      - name: Upload JMeter Test Results
+        uses: actions/upload-artifact@v1
+        with:
+          name: jmeter-test-results
+          path: reports/
+
+

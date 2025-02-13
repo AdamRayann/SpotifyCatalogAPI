@@ -16,70 +16,70 @@ import com.example.catalog.utils.SpotifyUtils;
 
 @RestController
 public class CatalogController {
-//
-//    private final ObjectMapper objectMapper = new ObjectMapper();
-//
-//    @GetMapping("/popularSongs")
-//    public JsonNode getPopularSongs(
-//            @RequestParam(value = "name", required = false) String songName,
-//            @RequestParam(value = "minPopularity", required = false) Integer minPopularity
-//            ,@RequestParam(defaultValue = "0") int offset,
-//            @RequestParam(defaultValue = "-1") int limit ) throws IOException {
-//        // Load JSON data
+
+    private final ObjectMapper objectMapper = new ObjectMapper();
+
+    @GetMapping("/popularSongs")
+    public JsonNode getPopularSongs(
+            @RequestParam(value = "name", required = false) String songName,
+            @RequestParam(value = "minPopularity", required = false) Integer minPopularity
+            ,@RequestParam(defaultValue = "0") int offset,
+            @RequestParam(defaultValue = "-1") int limit ) throws IOException {
+        // Load JSON data
+        ClassPathResource resource = new ClassPathResource("data/popular_songs.json");
+        JsonNode allSongs = objectMapper.readTree(resource.getFile());
+
+        // Filter using Streams
+        List<JsonNode> filteredSongs = StreamSupport.stream(allSongs.spliterator(), false)
+                .filter(song -> minPopularity == null || song.get("popularity").asInt() >= minPopularity) // Apply minPopularity filter
+                .filter(song -> songName == null || song.get("name").asText().equalsIgnoreCase(songName)) // Apply songName filter
+                .collect(Collectors.toList());
+        if(limit!=-1)
+            filteredSongs=filteredSongs.subList(offset,offset+limit);
+        else
+            filteredSongs=filteredSongs.subList(offset,filteredSongs.size());
+        // Return filtered results as JSON
+        return objectMapper.valueToTree(filteredSongs);
+    }
+
+//    @GetMapping("/popularSongs/filter?name={songName}&minPopularity={minPopularity}")
+//    public JsonNode getFilteredPopularSongs(@PathVariable String songName,@PathVariable int minPopularity) throws IOException {
 //        ClassPathResource resource = new ClassPathResource("data/popular_songs.json");
-//        JsonNode allSongs = objectMapper.readTree(resource.getFile());
+//        //JsonNode albums = objectMapper.readTree(resource.getFile());
+//        //JsonNode album = albums.get(minPopularity);
 //
-//        // Filter using Streams
+//
+//        return objectMapper.readTree(resource.getFile());
+//    }
+
+//    @GetMapping("/songs/mostRecent")
+//    public JsonNode getMostRecentSong() throws IOException {
+//        ClassPathResource resource = new ClassPathResource("data/popular_artists.json");
+//        JsonNode allSongs = objectMapper.readTree(resource.getFile());
 //        List<JsonNode> filteredSongs = StreamSupport.stream(allSongs.spliterator(), false)
-//                .filter(song -> minPopularity == null || song.get("popularity").asInt() >= minPopularity) // Apply minPopularity filter
 //                .filter(song -> songName == null || song.get("name").asText().equalsIgnoreCase(songName)) // Apply songName filter
 //                .collect(Collectors.toList());
-//        if(limit!=-1)
-//            filteredSongs=filteredSongs.subList(offset,offset+limit);
-//        else
-//            filteredSongs=filteredSongs.subList(offset,filteredSongs.size());
-//        // Return filtered results as JSON
-//        return objectMapper.valueToTree(filteredSongs);
-//    }
 //
-////    @GetMapping("/popularSongs/filter?name={songName}&minPopularity={minPopularity}")
-////    public JsonNode getFilteredPopularSongs(@PathVariable String songName,@PathVariable int minPopularity) throws IOException {
-////        ClassPathResource resource = new ClassPathResource("data/popular_songs.json");
-////        //JsonNode albums = objectMapper.readTree(resource.getFile());
-////        //JsonNode album = albums.get(minPopularity);
-////
-////
-////        return objectMapper.readTree(resource.getFile());
-////    }
-//
-////    @GetMapping("/songs/mostRecent")
-////    public JsonNode getMostRecentSong() throws IOException {
-////        ClassPathResource resource = new ClassPathResource("data/popular_artists.json");
-////        JsonNode allSongs = objectMapper.readTree(resource.getFile());
-////        List<JsonNode> filteredSongs = StreamSupport.stream(allSongs.spliterator(), false)
-////                .filter(song -> songName == null || song.get("name").asText().equalsIgnoreCase(songName)) // Apply songName filter
-////                .collect(Collectors.toList());
-////
-////        return objectMapper.readTree(resource.getFile());
-////    }
-////
-////    @GetMapping("/songs/longest")
-////    public JsonNode getlongestSong() throws IOException {
-////        ClassPathResource resource = new ClassPathResource("data/popular_artists.json");
-////        return objectMapper.readTree(resource.getFile());
-////    }
-//
-//
-//    @GetMapping("/internal")
-//    public ResponseEntity<String> internalEndpoint() {
-//        return ResponseEntity.ok("Internal request successful. No rate limiting applied.");
-//    }
-//    @GetMapping("/popularArtists")
-//    public JsonNode getPopularArtists() throws IOException {
-//        ClassPathResource resource = new ClassPathResource("data/popular_artists.json");
 //        return objectMapper.readTree(resource.getFile());
 //    }
 //
+//    @GetMapping("/songs/longest")
+//    public JsonNode getlongestSong() throws IOException {
+//        ClassPathResource resource = new ClassPathResource("data/popular_artists.json");
+//        return objectMapper.readTree(resource.getFile());
+//    }
+
+
+    @GetMapping("/internal")
+    public ResponseEntity<String> internalEndpoint() {
+        return ResponseEntity.ok("Internal request successful. No rate limiting applied.");
+    }
+    @GetMapping("/popularArtists")
+    public JsonNode getPopularArtists() throws IOException {
+        ClassPathResource resource = new ClassPathResource("data/popular_artists.json");
+        return objectMapper.readTree(resource.getFile());
+    }
+
 //    @GetMapping("/albums/{id}")
 //    public JsonNode getAlbumById(@PathVariable String id) throws IOException {
 //        if (! SpotifyUtils.isValidId(id)) {

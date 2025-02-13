@@ -38,7 +38,11 @@ public class SongController {
         }
         try {
             Song song = dataSourceService.getSongById(id);
-            return song != null ? ResponseEntity.ok(song) : ResponseEntity.status(HttpStatus.NOT_FOUND).build();
+            if(song != null){
+
+                return ResponseEntity.ok(song);
+            }
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
         } catch (IOException e) {
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
         }
