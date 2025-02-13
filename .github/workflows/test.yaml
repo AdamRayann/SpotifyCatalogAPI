@@ -30,10 +30,12 @@ jobs:
       - name: Run Maven Tests
         run: mvn test
 
-  action_build:
+  jmeter:
+    name: Run JMeter Tests
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout code
+        uses: actions/checkout@v2
 
       - name: Run JMeter Action on a test
         uses: rbhadti94/apache-jmeter-action@v0.5.0
@@ -42,8 +44,8 @@ jobs:
           outputReportsFolder: reports/
           args: "--loglevel INFO"
 
-
-      - uses: actions/upload-artifact@v1
+      - name: Upload JMeter Test Results
+        uses: actions/upload-artifact@v2
         with:
           name: jmeter-test-results
           path: reports/
