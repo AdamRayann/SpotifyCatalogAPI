@@ -36,6 +36,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Ensures all files are checked out
 
       - name: Run JMeter Action on a test
         uses: rbhadti94/apache-jmeter-action@v0.5.0
@@ -45,7 +47,7 @@ jobs:
           args: "--loglevel INFO"
 
       - name: Upload JMeter Test Results
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v2
         with:
           name: jmeter-test-results
           path: reports/
