@@ -20,3 +20,8 @@ Developed an enhanced version of **SpotifyCatalogAPI**, improving its design and
 - **Version Control & CI/CD:** Git, GitHub Actions  
 - **Project Management:** JIRA, SDLC  
 - **Containerization & Testing:** Docker, Automated Testing (Unit, Integration, API)  
+
+
+
+![image](https://github.com/user-attachments/assets/8d46ecbe-b25d-4209-80a0-2884f5e0712b)
+
